@@ -12,14 +12,28 @@ code {
     monospace;
 }
 
-header h1 a {
+header h2 a {
   text-decoration: none;
+  color: black;
 }
 
 nav li {
   cursor: pointer;
 }
 
-.navActive {
+.selected {
   color: blue;
+}
+
+#avatar {
+  max-width: 20rem;
+  min-width: 10rem;
+}
+
+#about-caption {
+  max-width: 50rem;
+}
+
+#about-text {
+  max-width: 75rem;
 }

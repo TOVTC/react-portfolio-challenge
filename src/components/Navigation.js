@@ -8,13 +8,13 @@ function Navigation(props) {
     } = props;
     return (
         <header className='d-flex justify-content-between p-5'>
-            <h1 className='d-inline-flex'>
-                <a href="/">TOVTC</a>
-            </h1>
+            <h2 className='d-inline-flex'>
+                <a href="/">To, Veronica Tai Chi</a>
+            </h2>
             <nav className='d-inline-flex'>
                 <ul className='flex-row list-inline'>
                     {options.map((option) => (
-                        <li className={`mx-3 d-inline-flex ${selection === option && 'navActive'}`} key={option}>
+                        <li className={`mx-3 d-inline-flex ${selection === option && 'selected'}`} key={option}>
                             <span onClick={() => setSelection(option)}>
                                 {option}
                             </span>
