@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div className='m-5 px-5'>
+        <div className='m-4 px-5'>
             <div className='d-flex flex-wrap justify-content-center align-items-center mb-3'>
                 <img src={require('../assets/avatar.jpg')} alt='TOVTC' id='avatar' className='mx-5'></img>
                 <div id='about-caption'>

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Navigation from './components/Navigation';
 import About from './components/About'
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
     const options = [
@@ -25,6 +26,8 @@ function App() {
                             return <About></About>
                         case 'Portfolio':
                             return <Portfolio></Portfolio>
+                        case 'Contact':
+                            return <Contact></Contact>
                     }
                 })()}
             </main>

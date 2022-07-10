@@ -15,15 +15,17 @@ function Portfolio() {
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
     return (
-        <div className='m-5 px-5'>
+        <div className='m-4 px-5'>
             <h3 className='my-2'>Deployed Applications</h3>
             <div className='d-flex flex-wrap justify-content-around m-3'>
                 {!deployedApps.length ? (
                     <p>No applications of this type featured!</p>
                 ) : (
                     deployedApps.map(app => (
-                        <div className='m-3 p-4 border'>
-                            <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image'></img>
+                        <div className='m-3 p-4 border' key={app.name}>
+                            <a href={app.repo}>
+                                <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image'></img>
+                            </a>
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>
                                 <p>Focus: {app.focus}</p>
@@ -34,14 +36,16 @@ function Portfolio() {
                     ))
                 )}
             </div>
-            <h3 className='my-2'>Non-Deployed Applications</h3>
+            <h3 className='mt-5 my-2'>Non-Deployed Applications</h3>
             <div className='d-flex flex-wrap justify-content-around m-3'>
                 {!nondeployedApps.length ? (
                     <p>No applications of this type featured!</p>
                 ) : (
                     nondeployedApps.map(app => (
-                        <div className='m-3 p-4 border'>
-                            <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image'></img>
+                        <div className='m-3 p-4 border' key={app.name}>
+                            <a href={app.repo}>
+                                <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image'></img>
+                            </a>
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>
                                 <p>Focus: {app.focus}</p>
