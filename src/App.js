@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Navigation from './components/Navigation';
 import About from './components/About'
+import Portfolio from './components/Portfolio';
 
 function App() {
     const options = [
@@ -21,6 +22,10 @@ function App() {
                 {(() => {
                     switch (selection) {
                         case 'About Me':
+                            return <About></About>
+                        case 'Portfolio':
+                            return <Portfolio></Portfolio>
+                        default:
                             return <About></About>
                     }
                 })()}
