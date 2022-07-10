@@ -26,14 +26,16 @@ nav li {
 }
 
 #avatar {
-  max-width: 20rem;
+  max-width: 17rem;
   min-width: 10rem;
 }
 
 #about-caption {
+  font-size: 17px;
   max-width: 50rem;
+  min-width: 20rem;
 }
 
-#about-text {
+.about-text {
   max-width: 75rem;
 }
