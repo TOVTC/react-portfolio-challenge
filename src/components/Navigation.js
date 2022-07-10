@@ -8,9 +8,9 @@ function Navigation(props) {
     } = props;
     return (
         <header className='d-flex justify-content-between p-5'>
-            <h2 className='d-inline-flex'>
+            <h1 className='d-inline-flex'>
                 <a href="/">To, Veronica Tai Chi</a>
-            </h2>
+            </h1>
             <nav className='d-inline-flex'>
                 <ul className='flex-row list-inline'>
                     {options.map((option) => (

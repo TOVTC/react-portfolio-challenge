@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-header h2 a {
+header h1 a {
+  font-size: 2rem;
   text-decoration: none;
   color: black;
 }
@@ -38,4 +39,8 @@ nav li {
 
 .about-text {
   max-width: 75rem;
+}
+
+.image {
+  max-width: 20rem;
 }

@@ -22,17 +22,21 @@ function About() {
                     <br />
                     <br />
                     Currently, I'm a student with University of Toronto's School of Continuing Studies and in the final weeks of their Coding Bootcamp. The projects featured in this portfolio were created during this course - including this webpage you're reading now, which is a React single page application.
-                    <ul className='m-4'>
-                        <li>😝 Pronouns: She/Her/她</li>
-                        <li>💻 Current project: University of Toronto's Coding Bootcamp</li>
-                        <li>🎓 Educational background: BSc in psychological and health sciences from the University of Toronto under their co-op program</li>
-                        <li>🏢 Work background: primarily in the mental health, non-profit, and healthcare sectors</li>
-                        <li>📝 Looking for: opportunities to work on new and challenging projects - learning by doing has taught me the fastest</li>
-                        <li>❓ Ask me about: overly convoluted hypotheticals</li>
-                        <li>🌻 Fun fact: I like sunflowers, nerd stuff, and punk music (but I'll pretty much listen to anything)</li>
-                    </ul>
+                    <br />
+                    <br />
                     Hope you enjoy the products of this new journey of mine as much as I had fun learning it.
                 </p>
+            </div>
+            <div className='d-flex justify-content-center m-4'>
+                <ul className='about-text'>
+                    <li>😝 Pronouns: She/Her/她</li>
+                    <li>💻 Current project: University of Toronto's Coding Bootcamp</li>
+                    <li>🎓 Educational background: BSc in psychological and health sciences from the University of Toronto under their co-op program</li>
+                    <li>🏢 Work background: primarily in the mental health, non-profit, and healthcare sectors</li>
+                    <li>📝 Looking for: opportunities to work on new and challenging projects - learning by doing has taught me the fastest</li>
+                    <li>❓ Ask me about: overly convoluted hypotheticals</li>
+                    <li>🌻 Fun fact: I like sunflowers, nerd stuff, and punk music (but I'll pretty much listen to anything)</li>
+                </ul>
             </div>
         </div>
     )
