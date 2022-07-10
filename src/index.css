@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* header */
 header h1 a {
   font-size: 2rem;
   text-decoration: none;
@@ -26,6 +27,7 @@ nav li {
   color: blue;
 }
 
+/* about */
 #avatar {
   max-width: 17rem;
   min-width: 10rem;
@@ -41,6 +43,12 @@ nav li {
   max-width: 75rem;
 }
 
+/* portfolio */
 .image {
   max-width: 20rem;
+}
+
+.custom {
+  min-height: 325px;
+  width: 375px;
 }

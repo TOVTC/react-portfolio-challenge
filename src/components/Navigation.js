@@ -7,7 +7,7 @@ function Navigation(props) {
         setSelection
     } = props;
     return (
-        <header className='d-flex justify-content-between p-5'>
+        <header className='d-flex flex-wrap justify-content-between p-5'>
             <h1 className='d-inline-flex'>
                 <a href="/">To, Veronica Tai Chi</a>
             </h1>

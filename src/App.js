@@ -25,8 +25,6 @@ function App() {
                             return <About></About>
                         case 'Portfolio':
                             return <Portfolio></Portfolio>
-                        default:
-                            return <About></About>
                     }
                 })()}
             </main>
