@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-scscbc-challenge/static/css/main.50820346.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.668c3cdd.js",
+    "main.css": "/react-portfolio-scscbc-challenge/static/css/main.30214cda.css",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.fe7141d4.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/portfolio.png": "/react-portfolio-scscbc-challenge/static/media/portfolio.dfffa91f092c95e3cd13.png",
@@ -14,12 +14,12 @@
     "static/media/fermata.png": "/react-portfolio-scscbc-challenge/static/media/fermata.b320a5d001fbdad3deb1.png",
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
-    "main.50820346.css.map": "/react-portfolio-scscbc-challenge/static/css/main.50820346.css.map",
-    "main.668c3cdd.js.map": "/react-portfolio-scscbc-challenge/static/js/main.668c3cdd.js.map",
+    "main.30214cda.css.map": "/react-portfolio-scscbc-challenge/static/css/main.30214cda.css.map",
+    "main.fe7141d4.js.map": "/react-portfolio-scscbc-challenge/static/js/main.fe7141d4.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50820346.css",
-    "static/js/main.668c3cdd.js"
+    "static/css/main.30214cda.css",
+    "static/js/main.fe7141d4.js"
   ]
 }
