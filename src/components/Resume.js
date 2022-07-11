@@ -1,19 +1,16 @@
 import React from 'react';
+import {BsFileEarmarkPost, BsFileEarmarkCode, BsFileEarmarkRuled} from "react-icons/bs";
 
 function Resume() {
     return (
         <div className='m-4 px-5'>
-            <div>
-                <h2>Full Resume</h2>
-                <p>Available for download <a href={require('../assets/documents/resume-example.pdf')} download>here</a></p>
+            <div className='mb-4'>
+                <h2>Summary of Proficiencies</h2>
+                <p>Primary - MERN Stack</p>
             </div>
-            <div className='my-5'>
-                    <h2>Summary of Proficiencies</h2>
-                    <p>Primary - MERN Stack</p>
-                </div>
             <div className='d-flex flex-wrap'>
-                <div className='mx-5'>
-                    <h3>Frontend Technologies</h3>
+                <div className='me-5'>
+                    <h3><BsFileEarmarkPost /> Frontend Technologies</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS (+ Bootstrap)</li>
@@ -21,8 +18,8 @@ function Resume() {
                         <li>React</li>
                     </ul>
                 </div>
-                <div className='mx-5'>
-                    <h3>Backend Technologies</h3>
+                <div className='me-5'>
+                    <h3><BsFileEarmarkCode /> Backend Technologies</h3>
                     <ul>
                         <li>Node.js (+ npm)</li>
                         <li>Jest</li>
@@ -31,15 +28,19 @@ function Resume() {
                         <li>MongoDB</li>
                     </ul>
                 </div>
-                <div className='mx-5'>
-                    <h3>Other Technologies</h3>
+                <div className='me-5'>
+                    <h3><BsFileEarmarkRuled /> Other Technologies</h3>
                     <ul>
                         <li>R</li>
                         <li>Heroku (+ JawsDB, MongoDB Atlas)</li>
                         <li>Handlebars</li>
                     </ul>
                 </div>
-            </div>            
+            </div>    
+            <div className='mt-3'>
+                <h2>Full Resume</h2>
+                <p>Available for download <a href={require('../assets/documents/resume-example.pdf')} download>here</a></p>
+            </div>        
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {BsFileEarmarkPost, BsFileEarmarkCode} from "react-icons/bs";
 
 function Portfolio() {
     const [projects] = useState([
@@ -16,7 +17,8 @@ function Portfolio() {
     const nondeployedApps = projects.filter(project => project.deployed === false);
     return (
         <div className='m-4 px-5'>
-            <h3 className='my-2'>Deployed Applications</h3>
+            <h2 className='mb-5'>Portfolio</h2>
+            <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
             <div className='d-flex flex-wrap justify-content-around m-3'>
                 {!deployedApps.length ? (
                     <p>No applications of this type featured!</p>
@@ -36,7 +38,7 @@ function Portfolio() {
                     ))
                 )}
             </div>
-            <h3 className='mt-5 my-2'>Non-Deployed Applications</h3>
+            <h3 className='mt-5 my-2'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
             <div className='d-flex flex-wrap justify-content-around m-3'>
                 {!nondeployedApps.length ? (
                     <p>No applications of this type featured!</p>
