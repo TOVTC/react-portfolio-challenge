@@ -8,7 +8,7 @@ function Navigation(props) {
     } = props;
     return (
         <nav className='d-inline-flex'>
-            <ul className='flex-row list-inline'>
+            <ul className='list-inline'>
                 {options.map((option) => (
                     <li className={`mx-3 d-inline-flex ${selection === option && 'selected'}`} key={option}>
                         <span onClick={() => setSelection(option)}>

@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
     return (
-        <div className='m-4 px-5'>
-            <div className='d-flex flex-wrap justify-content-center align-items-center mb-3'>
-                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar' className='mx-5'></img>
+        <div className='container'>
+            <div className='row d-flex flex-wrap justify-content-center align-items-center mb-3'>
+                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar'></img>
                 <div id='about-caption'>
                     <h2>TOVTC</h2>
                     <ul className='d-flex flex-wrap list-inline'>
@@ -16,12 +16,12 @@ function About() {
                     </ul>
                 </div>
             </div>
-            <div className='d-flex justify-content-center mt-5'>
-                <p className='about-text'>
+            <div className='row mt-5'>
+                <p>
                     TOVTC here, medical laboratory assistant, mathematics instructor, full-stack developer. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree. I intially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
                 </p>
             </div>
-            <div className='d-flex justify-content-center m-2'>
+            <div className='row mx-5 my-3'>
                 <ul className='about-text'>
                     <li>😝 Pronouns: She/Her/她</li>
                     <li>💻 Current project: University of Toronto's Coding Bootcamp</li>
@@ -32,8 +32,8 @@ function About() {
                     <li>🌻 Fun fact: I like sunflowers, nerd stuff, and punk music (but I'll pretty much listen to anything)</li>
                 </ul>
             </div>
-            <div className='d-flex justify-content-center m-4'>
-                <p className='about-text'>
+            <div className='row mb-3'>
+                <p>
                     Currently, I'm a student with University of Toronto's School of Continuing Studies and in the final weeks of their Coding Bootcamp. The projects featured in this portfolio were created during this course - including this webpage you're reading now, which is a React single page application.
                     <br />
                     <br />

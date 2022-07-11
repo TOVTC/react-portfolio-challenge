@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import {BsFileEarmarkPost, BsFileEarmarkCode} from "react-icons/bs";
+import {BsGithub, BsLink} from "react-icons/bs";
+
 
 function Portfolio() {
     const [projects] = useState([
@@ -16,47 +18,53 @@ function Portfolio() {
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
     return (
-        <div className='m-4 px-5'>
-            <h2 className='mb-5'>Portfolio</h2>
-            <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
-            <div className='d-flex flex-wrap justify-content-around m-3'>
-                {!deployedApps.length ? (
-                    <p>No applications of this type featured!</p>
-                ) : (
-                    deployedApps.map(app => (
-                        <div className='m-3 p-4 border' key={app.name}>
-                            <a href={app.repo}>
-                                <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
-                            </a>
-                            <h4 className='mt-4'>{app.name}</h4>
-                            <div className='my-3'>
-                                <p>Focus: {app.focus}</p>
-                                <a href={app.repo} className='mx-1' target='_blank' rel='noreferrer'>GitHub Repository</a>
-                                <a href={app.link} className='mx-1' target='_blank' rel='noreferrer'>Deployed Link</a>
-                            </div>
-                        </div>
-                    ))
-                )}
+        <div className='container'>
+            <div className='row mb-2'>
+                <h2>Portfolio</h2>
             </div>
-            <h3 className='mt-5 my-2'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
-            <div className='d-flex flex-wrap justify-content-around m-3'>
-                {!nondeployedApps.length ? (
-                    <p>No applications of this type featured!</p>
-                ) : (
-                    nondeployedApps.map(app => (
-                        <div className='m-3 p-4 border' key={app.name}>
-                            <a href={app.repo}>
-                                <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
-                            </a>
-                            <h4 className='mt-4'>{app.name}</h4>
-                            <div className='my-3'>
-                                <p>Focus: {app.focus}</p>
-                                <a href={app.repo} className='mx-1' target='_blank' rel='noreferrer'>GitHub Repository</a>
+            <div className='row'>
+                <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
+                <div className='d-flex flex-wrap my-3'>
+                    {!deployedApps.length ? (
+                        <p>No applications of this type featured!</p>
+                    ) : (
+                        deployedApps.map(app => (
+                            <div className='m-3 p-4 border' key={app.name}>
+                                <a href={app.repo}>
+                                    <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                </a>
+                                <h4 className='mt-4'>{app.name}</h4>
+                                <div className='my-3'>
+                                    <p>Focus: {app.focus}</p>
+                                    <BsGithub /><a href={app.repo} className='mx-2' target='_blank' rel='noreferrer'>GitHub</a>
+                                    <BsLink /><a href={app.link} className='mx-2' target='_blank' rel='noreferrer'>Deployed</a>
+                                </div>
                             </div>
-                        </div>
-                    ))
-                )}
+                        ))
+                    )}
+                </div>
             </div>
+            <div className='row mt-5'>
+                <h3 className='my-2'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
+                    <div className='d-flex flex-wrap my-3'>
+                        {!nondeployedApps.length ? (
+                            <p>No applications of this type featured!</p>
+                        ) : (
+                            nondeployedApps.map(app => (
+                                <div className='m-3 p-4 border' key={app.name}>
+                                    <a href={app.repo}>
+                                        <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                    </a>
+                                    <h4 className='mt-4'>{app.name}</h4>
+                                    <div className='my-3'>
+                                        <p>Focus: {app.focus}</p>
+                                        <BsGithub /><a href={app.repo} className='mx-2' target='_blank' rel='noreferrer'>GitHub</a>
+                                    </div>
+                                </div>
+                            ))
+                        )}
+                    </div>
+                </div>
         </div>
     )
 }

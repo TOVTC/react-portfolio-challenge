@@ -30,30 +30,34 @@ function Contact() {
         console.log(form)
     }
     return (
-        <div className='m-4 px-5'>
-            <h2 className='mb-4'>Contact <BsEnvelope /></h2>
-            <form onSubmit={submitForm}>
-                <div className='d-flex w-50'>
-                    <div className='my-2 me-3'>
-                        <label htmlFor='name'className='d-block'>Name:</label>
-                        <input type='text' name='name' defaultValue={name} onBlur={monitorForm}></input>
+        <div className='container'>
+            <div className='row'>
+                <h2 className='mb-4'>Contact <BsEnvelope /></h2>
+            </div>
+            <div className='row'>
+                <form onSubmit={submitForm}>
+                    <div className='d-flex w-50'>
+                        <div className='my-2 me-3'>
+                            <label htmlFor='name'className='d-block'>Name:</label>
+                            <input type='text' name='name' defaultValue={name} onBlur={monitorForm}></input>
+                        </div>
+                        <div className='my-2 ms-3'>
+                            <label htmlFor='email' className='d-block'>Email:</label>
+                            <input type='text' name='email' defaultValue={email} onBlur={monitorForm}></input>
+                        </div>
                     </div>
-                    <div className='my-2 ms-3'>
-                        <label htmlFor='email' className='d-block'>Email:</label>
-                        <input type='text' name='email' defaultValue={email} onBlur={monitorForm}></input>
+                    <div className='my-2'>
+                        <label htmlFor='message' className='d-block'>Message:</label>
+                        <textarea type='text' name='message' rows='5' className='w-50' defaultValue={message} onBlur={monitorForm}></textarea>
                     </div>
-                </div>
-                <div className='my-2'>
-                    <label htmlFor='message' className='d-block'>Message:</label>
-                    <textarea type='text' name='message' rows='5' className='w-50' defaultValue={message} onBlur={monitorForm}></textarea>
-                </div>
-                <button type='submit' className='btn btn-secondary my-2'>Send</button>
-            </form>
-            {warning && (
-                <div>
-                    <p>{warning}</p>
-                </div>
-            )}
+                    <button type='submit' className='btn btn-secondary my-2'>Send</button>
+                </form>
+                {warning && (
+                    <div>
+                        <p>{warning}</p>
+                    </div>
+                )}
+            </div>
         </div>
     )
 }
