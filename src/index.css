@@ -150,6 +150,10 @@ header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
     display:flex;
     justify-content: center;
   }
+
+  .projects {
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 575px) {

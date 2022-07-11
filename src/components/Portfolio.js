@@ -26,7 +26,7 @@ function Portfolio() {
                 <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
             </div>
             <div className='row'>
-                <div className='col d-flex flex-wrap my-3'>
+                <div className='col d-flex flex-wrap my-3 projects'>
                     {!deployedApps.length ? (
                         <p>No applications of this type featured!</p>
                     ) : (
@@ -46,9 +46,11 @@ function Portfolio() {
                     )}
                 </div>
             </div>
-            <div className='row mt-5'>
-                <h3 className='my-2'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
-                    <div className='d-flex flex-wrap my-3'>
+            <div className='row'>
+                <h3 className='mt-5'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
+            </div>
+            <div className='row mt-2'>
+                    <div className='col d-flex flex-wrap my-3 projects'>
                         {!nondeployedApps.length ? (
                             <p>No applications of this type featured!</p>
                         ) : (
