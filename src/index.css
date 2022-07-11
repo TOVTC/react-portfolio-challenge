@@ -23,26 +23,38 @@ html {
   overflow-y: scroll;
 }
 
+:root {
+  --darkest: #0E3233;
+  --medium: #3A7879;
+  --lightest: #FAFBFD;
+  --accent: #FECA00;
+}
+
 /* header */
 header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   height: 6rem;
-  background-color: #0E3233;
+  background-color: var(--darkest);
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 a {
   font-size: 2rem;
   text-decoration: none;
-  color: #FAFBFD;
+  color: var(--lightest);
 }
 
 nav li {
   cursor: pointer;
-  color: #FAFBFD;
+  color: var(--lightest);
 }
 
 
 .selected {
-  color: #FECA00;
+  color: var(--accent);
 }
 
 /* about */
@@ -55,7 +67,6 @@ nav li {
 #about-caption {
   font-size: 1.05rem;
   max-width: 55rem;
-  min-width: 20rem;
 }
 
 .about-text {
@@ -72,18 +83,22 @@ nav li {
 }
 
 .project {
-  background-color: #0E3233;
-  color: #FAFBFD;
+  background-color: var(--darkest);
+  color: var(--lightest);
 }
 
 .mini-link {
-  color: #3A7879;
+  color: var(--medium);
 }
 
 /* contact */
 #contact {
-  color: #FAFBFD;
-  background-color: #3A7879;
+  color: var(--lightest);
+  background-color: var(--medium);
+}
+
+#message {
+  width: 50%;
 }
 
 /* footer */
@@ -101,12 +116,12 @@ footer {
   bottom: 0;
   width: 100%;
   height: 5rem;
-  background-color: #0E3233;
+  background-color: var(--darkest);
 }
 
 footer a {
   text-decoration: none;
-  color: #3A7879;
+  color: var(--medium);
 }
 
 #icons {
@@ -115,17 +130,18 @@ footer a {
 
 /* responsive */
 header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
-  color: #FECA00;
+  color: var(--accent);
 }
 
 #contact:hover {
-  background-color: #FECA00;
+  background-color: var(--accent);
 }
 
 @media screen and (max-width: 980px) {
   #about-caption {
     text-align: center;
   }
+
   #title {
     display:flex;
     justify-content: center;
@@ -133,7 +149,31 @@ header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
 }
 
 @media screen and (max-width: 575px) {
+  header {
+    justify-content: center;
+  }
+
+  header h1 a {
+    font-size: 1.75rem;
+  }
+
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  #about-caption {
+    font-size: 1rem;
+  }
+
   .vert {
     display: none;
+  }
+
+  .image {
+    max-width: 15rem;
+  }
+
+  #message {
+    width: 100%;
   }
 }

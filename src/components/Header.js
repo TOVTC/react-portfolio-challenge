@@ -3,9 +3,9 @@ import Navigation from './Navigation';
 
 function Header({options = [], selection, setSelection}) {
     return (
-        <header className='d-flex flex-wrap justify-content-between align-items-center p-3 mb-5'>
+        <header className='d-flex flex-wrap p-3 mb-5'>
             <h1 className='d-inline-flex'>
-                <a href="/">To, Veronica Tai Chi</a>
+                <a href="/react-portfolio-scscbc-challenge">To, Veronica Tai Chi</a>
             </h1>
             <Navigation
                 options={options}

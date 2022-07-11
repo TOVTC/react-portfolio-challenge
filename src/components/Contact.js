@@ -36,19 +36,19 @@ function Contact() {
             </div>
             <div className='row'>
                 <form onSubmit={submitForm}>
-                    <div className='d-flex w-50'>
-                        <div className='my-2 me-3'>
+                    <div className='d-flex flex-wrap w-50'>
+                        <div className='my-2 me-5'>
                             <label htmlFor='name'className='d-block'>Name:</label>
                             <input type='text' name='name' defaultValue={name} onBlur={monitorForm}></input>
                         </div>
-                        <div className='my-2 ms-3'>
+                        <div className='my-2'>
                             <label htmlFor='email' className='d-block'>Email:</label>
                             <input type='text' name='email' defaultValue={email} onBlur={monitorForm}></input>
                         </div>
                     </div>
                     <div className='my-2'>
                         <label htmlFor='message' className='d-block'>Message:</label>
-                        <textarea type='text' name='message' rows='5' className='w-50' defaultValue={message} onBlur={monitorForm}></textarea>
+                        <textarea type='text' name='message' rows='5' id='message' defaultValue={message} onBlur={monitorForm}></textarea>
                     </div>
                     <button type='submit' className='btn my-2' id='contact'>Send</button>
                 </form>

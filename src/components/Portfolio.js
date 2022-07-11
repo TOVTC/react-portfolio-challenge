@@ -24,7 +24,9 @@ function Portfolio() {
             </div>
             <div className='row'>
                 <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
-                <div className='d-flex flex-wrap my-3'>
+            </div>
+            <div className='row'>
+                <div className='col d-flex flex-wrap my-3'>
                     {!deployedApps.length ? (
                         <p>No applications of this type featured!</p>
                     ) : (
