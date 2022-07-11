@@ -3,7 +3,7 @@ import {BsFacebook, BsLinkedin, BsGithub} from "react-icons/bs";
 
 function Footer() {
     return (
-        <footer id='footer' className='d-flex justify-content-center align-items-center'>
+        <footer className='d-flex justify-content-center align-items-center'>
             <div id='icons' className='d-flex'>
                 <a href='https://github.com/TOVTC' className='mx-3'><BsGithub size='lg'/></a>
                 <a href='https://www.linkedin.com/in/veronicataichito/' className='mx-3'><BsLinkedin size='lg'/></a>

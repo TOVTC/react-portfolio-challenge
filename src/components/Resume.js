@@ -11,7 +11,7 @@ function Resume() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-4'>
+                <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkPost /> Frontend Technologies</h3>
                         <ul>
                             <li>HTML</li>
@@ -20,7 +20,7 @@ function Resume() {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkCode /> Backend Technologies</h3>
                         <ul>
                             <li>Node.js (+ npm)</li>
@@ -30,7 +30,7 @@ function Resume() {
                             <li>MongoDB</li>
                         </ul>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkRuled /> Other Technologies</h3>
                         <ul>
                             <li>R</li>
@@ -41,7 +41,7 @@ function Resume() {
                 </div>
             <div className='row mt-3'>
                 <h2>Full Resume</h2>
-                <p>Available for download <a href={require('../assets/documents/resume-example.pdf')} download>here</a></p>
+                <p>Available for download <a href={require('../assets/documents/resume-example.pdf')} download className='mini-link'>here</a></p>
             </div>        
         </div>
     )

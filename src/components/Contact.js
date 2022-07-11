@@ -50,7 +50,7 @@ function Contact() {
                         <label htmlFor='message' className='d-block'>Message:</label>
                         <textarea type='text' name='message' rows='5' className='w-50' defaultValue={message} onBlur={monitorForm}></textarea>
                     </div>
-                    <button type='submit' className='btn btn-secondary my-2'>Send</button>
+                    <button type='submit' className='btn my-2' id='contact'>Send</button>
                 </form>
                 {warning && (
                     <div>

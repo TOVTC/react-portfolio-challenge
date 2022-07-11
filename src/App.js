@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
     const options = [
-        'About Me',
+        'About',
         'Portfolio',
         'Contact',
         'Resume'
@@ -24,7 +24,7 @@ function App() {
             <main id='content-wrap'>
                 {(() => {
                     switch (selection) {
-                        case 'About Me':
+                        case 'About':
                             return <About></About>
                         case 'Portfolio':
                             return <Portfolio></Portfolio>

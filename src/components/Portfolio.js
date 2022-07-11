@@ -29,15 +29,15 @@ function Portfolio() {
                         <p>No applications of this type featured!</p>
                     ) : (
                         deployedApps.map(app => (
-                            <div className='m-3 p-4 border' key={app.name}>
+                            <div className='m-3 p-4 radius project' key={app.name}>
                                 <a href={app.repo}>
-                                    <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                    <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                 </a>
                                 <h4 className='mt-4'>{app.name}</h4>
                                 <div className='my-3'>
                                     <p>Focus: {app.focus}</p>
-                                    <BsGithub /><a href={app.repo} className='mx-2' target='_blank' rel='noreferrer'>GitHub</a>
-                                    <BsLink /><a href={app.link} className='mx-2' target='_blank' rel='noreferrer'>Deployed</a>
+                                    <BsGithub /><a href={app.repo} className='mx-2 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
+                                    <BsLink /><a href={app.link} className='mx-2 mini-link' target='_blank' rel='noreferrer'>Deployed</a>
                                 </div>
                             </div>
                         ))
@@ -51,14 +51,14 @@ function Portfolio() {
                             <p>No applications of this type featured!</p>
                         ) : (
                             nondeployedApps.map(app => (
-                                <div className='m-3 p-4 border' key={app.name}>
+                                <div className='m-3 p-4 radius project' key={app.name}>
                                     <a href={app.repo}>
-                                        <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                        <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                     </a>
                                     <h4 className='mt-4'>{app.name}</h4>
                                     <div className='my-3'>
                                         <p>Focus: {app.focus}</p>
-                                        <BsGithub /><a href={app.repo} className='mx-2' target='_blank' rel='noreferrer'>GitHub</a>
+                                        <BsGithub /><a href={app.repo} className='mx-2 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
                                     </div>
                                 </div>
                             ))

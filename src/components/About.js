@@ -3,20 +3,20 @@ import React from 'react';
 function About() {
     return (
         <div className='container'>
-            <div className='row d-flex flex-wrap justify-content-center align-items-center mb-3'>
-                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar'></img>
+            <div className='row d-flex flex-wrap justify-content-center align-items-center my-3'>
+                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar' className='m-3'></img>
                 <div id='about-caption'>
                     <h2>TOVTC</h2>
-                    <ul className='d-flex flex-wrap list-inline'>
+                    <ul className='d-flex flex-wrap list-inline' id='title'>
                         <li>ASPIRING FULL-STACK DEVELOPER</li>
-                        <li className='mx-1'>|</li>
+                        <li className='mx-1 vert'>|</li>
                         <li>MEDICAL LABORATORY ASSISTANT</li>
-                        <li className='mx-1'>|</li>
+                        <li className='mx-1 vert'>|</li>
                         <li>MATHEMATICS INSTRUCTOR</li>
                     </ul>
                 </div>
             </div>
-            <div className='row mt-5'>
+            <div className='row mt-3'>
                 <p>
                     TOVTC here, medical laboratory assistant, mathematics instructor, full-stack developer. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree. I intially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
                 </p>
