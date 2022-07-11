@@ -76,4 +76,8 @@
   WHEN I am presented with the Resume section</br>
   THEN I see a link to a downloadable resume and a list of the developer’s proficiencies</br>
   WHEN I view the footer</br>
+<<<<<<< HEAD
   THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
+=======
+  THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
+>>>>>>> develop
