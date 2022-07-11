@@ -52,3 +52,25 @@ nav li {
   min-height: 325px;
   width: 375px;
 }
+
+/* footer */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}

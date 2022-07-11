@@ -36,6 +36,7 @@ function Resume() {
                     <ul>
                         <li>R</li>
                         <li>Heroku (+ JawsDB, MongoDB Atlas)</li>
+                        <li>Handlebars</li>
                     </ul>
                 </div>
             </div>            

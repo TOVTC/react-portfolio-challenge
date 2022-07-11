@@ -29,8 +29,8 @@ function Portfolio() {
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>
                                 <p>Focus: {app.focus}</p>
-                                <a href={app.repo} className='mx-1' target='_blank'>GitHub Repository</a>
-                                <a href={app.link} className='mx-1' target='_blank'>Deployed Link</a>
+                                <a href={app.repo} className='mx-1' target='_blank' rel='noreferrer'>GitHub Repository</a>
+                                <a href={app.link} className='mx-1' target='_blank' rel='noreferrer'>Deployed Link</a>
                             </div>
                         </div>
                     ))
@@ -49,7 +49,7 @@ function Portfolio() {
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>
                                 <p>Focus: {app.focus}</p>
-                                <a href={app.repo} className='mx-1' target='_blank'>GitHub Repository</a>
+                                <a href={app.repo} className='mx-1' target='_blank' rel='noreferrer'>GitHub Repository</a>
                             </div>
                         </div>
                     ))

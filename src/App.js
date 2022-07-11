@@ -4,6 +4,7 @@ import About from './components/About'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
     const options = [
@@ -14,13 +15,13 @@ function App() {
     ]
     const [selection, setSelection] = useState(options[0]);
     return (
-        <div>
+        <div id='page-container'>
             <Navigation
                 options={options}
                 selection={selection}
                 setSelection={setSelection}>
             </Navigation>
-            <main>
+            <main id='content-wrap'>
                 {(() => {
                     switch (selection) {
                         case 'About Me':
@@ -31,9 +32,12 @@ function App() {
                             return <Contact></Contact>
                         case 'Resume':
                             return <Resume></Resume>
+                        default:
+                            return <About></About>
                     }
                 })()}
             </main>
+            <Footer></Footer>
         </div>
     );
 }
