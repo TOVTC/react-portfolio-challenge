@@ -27,6 +27,7 @@
   ## Authors & Acknowledgements<a name="credits"></a>
   Special thanks to the following resources:</br>
   Amitabh [here](https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8) for his regex email formatting validation.</br>
+  Colour Palettes for their [#1451](https://colorpalettes.net/tag/yellow-and-gray/page/4/) palette which saved me from re-creating my first ever portfolio theme</br>
   Glad's article [here](https://blog.logrocket.com/using-bootstrap-with-react-tutorial-with-examples/) on integrating Bootstrap with React</br>
   Michael's switch statement article [here](https://medium.com/nerd-for-tech/a-case-to-switch-using-switch-statements-in-react-e83e01154f60)</br>
   John's article [here](https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/) on how to add download links</br>
@@ -34,8 +35,8 @@
   Miracle's [article](https://www.freecodecamp.org/news/how-to-use-react-icons/) on using icons in React</br>
   This MDB [article](https://mdbootstrap.com/docs/react/content/icons-usage/#:~:text=To%20increase%20icon%20sizes%20relative,size%3D%225x%22%20props.&text=If%20your%20icons%20are%20getting,you%20have%20sufficient%20line%2Dheight.) on icon sizes</br>
   Hive7's [answer](https://stackoverflow.com/questions/18548465/prevent-scroll-bar-from-adding-up-to-the-width-of-page-on-chrome) on scroll bars</br>
-  and finally, Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins
-
+  and finally, Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br></br>  
+  And surprising no one, [Erik](https://github.com/CodingErik), for helping my debug my initial React deployment (SSH really woke up and chose violence)
   
   Made by [TOVTC](https://github.com/TOVTC).</br>
   Originally submitted 2022Jul11.
