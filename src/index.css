@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,123 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/* header */
+header {
+  height: 6rem;
+  background-color: #0E3233;
+}
+
+header h1 a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #FAFBFD;
+}
+
+nav li {
+  cursor: pointer;
+  color: #FAFBFD;
+}
+
+
+.selected {
+  color: #FECA00;
+}
+
+/* about */
+#avatar {
+  max-width: 17rem;
+  min-width: 10rem;
+  border-radius: 15%;
+}
+
+#about-caption {
+  font-size: 1.05rem;
+  max-width: 55rem;
+  min-width: 20rem;
+}
+
+.about-text {
+  max-width: 75rem;
+}
+
+/* portfolio */
+.image {
+  max-width: 20rem;
+}
+
+.radius {
+  border-radius: 3%;
+}
+
+.project {
+  background-color: #0E3233;
+  color: #FAFBFD;
+}
+
+.mini-link {
+  color: #3A7879;
+}
+
+/* contact */
+#contact {
+  color: #FAFBFD;
+  background-color: #3A7879;
+}
+
+/* footer */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #0E3233;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3A7879;
+}
+
+#icons {
+  height: 2rem;
+}
+
+/* responsive */
+header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
+  color: #FECA00;
+}
+
+#contact:hover {
+  background-color: #FECA00;
+}
+
+@media screen and (max-width: 980px) {
+  #about-caption {
+    text-align: center;
+  }
+  #title {
+    display:flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .vert {
+    display: none;
+  }
 }
