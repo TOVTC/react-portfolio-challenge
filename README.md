@@ -1,4 +1,3 @@
-
   # Personal Portfolio (React SPA)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</br></br>
     
@@ -33,9 +32,8 @@
   John's article [here](https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/) on how to add download links</br>
   Dominic's article [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) on footer positioning</br>
   Miracle's [article](https://www.freecodecamp.org/news/how-to-use-react-icons/) on using icons in React</br>
-  This MDB [article](https://mdbootstrap.com/docs/react/content/icons-usage/#:~:text=To%20increase%20icon%20sizes%20relative,size%3D%225x%22%20props.&text=If%20your%20icons%20are%20getting,you%20have%20sufficient%20line%2Dheight.) on icon sizes</br>
   Hive7's [answer](https://stackoverflow.com/questions/18548465/prevent-scroll-bar-from-adding-up-to-the-width-of-page-on-chrome) on scroll bars</br>
-  and finally, Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br></br>  
+  Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br></br>  
   And surprising no one, [Erik](https://github.com/CodingErik), for helping my debug my initial React deployment (SSH really woke up and chose violence)
   
   Made by [TOVTC](https://github.com/TOVTC).</br>
@@ -78,4 +76,8 @@
   WHEN I am presented with the Resume section</br>
   THEN I see a link to a downloadable resume and a list of the developer’s proficiencies</br>
   WHEN I view the footer</br>
+<<<<<<< HEAD
   THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
+=======
+  THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
+>>>>>>> develop
