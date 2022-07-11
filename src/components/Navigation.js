@@ -7,22 +7,17 @@ function Navigation(props) {
         setSelection
     } = props;
     return (
-        <header className='d-flex flex-wrap justify-content-between p-5'>
-            <h1 className='d-inline-flex'>
-                <a href="/">To, Veronica Tai Chi</a>
-            </h1>
-            <nav className='d-inline-flex'>
-                <ul className='flex-row list-inline'>
-                    {options.map((option) => (
-                        <li className={`mx-3 d-inline-flex ${selection === option && 'selected'}`} key={option}>
-                            <span onClick={() => setSelection(option)}>
-                                {option}
-                            </span>
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-        </header>
+        <nav className='d-inline-flex'>
+            <ul className='flex-row list-inline'>
+                {options.map((option) => (
+                    <li className={`mx-3 d-inline-flex ${selection === option && 'selected'}`} key={option}>
+                        <span onClick={() => setSelection(option)}>
+                            {option}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </nav>
     )
 }
 

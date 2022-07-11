@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import About from './components/About'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -16,11 +16,11 @@ function App() {
     const [selection, setSelection] = useState(options[0]);
     return (
         <div id='page-container'>
-            <Navigation
+            <Header
                 options={options}
                 selection={selection}
                 setSelection={setSelection}>
-            </Navigation>
+            </Header>
             <main id='content-wrap'>
                 {(() => {
                     switch (selection) {
