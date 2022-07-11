@@ -26,6 +26,7 @@
     
   ## Authors & Acknowledgements<a name="credits"></a>
   Special thanks to the following resources:</br>
+  Amitabh [here](https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8) for his regex email formatting validation.</br>
   Glad's article [here](https://blog.logrocket.com/using-bootstrap-with-react-tutorial-with-examples/) on integrating Bootstrap with React</br>
   Michael's switch statement article [here](https://medium.com/nerd-for-tech/a-case-to-switch-using-switch-statements-in-react-e83e01154f60)</br>
   John's article [here](https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/) on how to add download links</br>
