@@ -24,7 +24,7 @@ function Portfolio() {
                     deployedApps.map(app => (
                         <div className='m-3 p-4 border' key={app.name}>
                             <a href={app.repo}>
-                                <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
                             </a>
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>
@@ -44,7 +44,7 @@ function Portfolio() {
                     nondeployedApps.map(app => (
                         <div className='m-3 p-4 border' key={app.name}>
                             <a href={app.repo}>
-                                <img src={require(`../assets/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
+                                <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 border image' alt={app.name}></img>
                             </a>
                             <h4 className='mt-4'>{app.name}</h4>
                             <div className='my-3'>

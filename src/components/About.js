@@ -4,7 +4,7 @@ function About() {
     return (
         <div className='m-4 px-5'>
             <div className='d-flex flex-wrap justify-content-center align-items-center mb-3'>
-                <img src={require('../assets/avatar.jpg')} alt='TOVTC' id='avatar' className='mx-5'></img>
+                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar' className='mx-5'></img>
                 <div id='about-caption'>
                     <h2>TOVTC</h2>
                     <ul className='d-flex flex-wrap list-inline'>
