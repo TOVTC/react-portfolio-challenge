@@ -1,19 +1,58 @@
 import React, {useState} from 'react';
+import {validate} from '../utils/helpers.js';
 
 function Contact() {
-    const [form, setForm] = useState({name: '', email: '', body: ''});
-    const {name, email, body} = form;
+    const [form, setForm] = useState({name: '', email: '', message: ''});
+    const {name, email, message} = form;
+    const [warning, setWarning] = useState('');
+    function monitorForm(e) {
+        if (!e.target.value.length) {
+            setWarning(`Please enter your ${e.target.name}`);
+        } else {
+            setWarning('');
+        }
+        if (e.target.name === 'email' && e.target.value.length) {
+            const valid = validate(e.target.value);
+            if (!valid) {
+                setWarning('Please enter a valid email');
+            } else {
+                setWarning('');
+            }
+        }
+        if (!warning) {
+            setForm({...form, [e.target.name]: e.target.value});
+            console.log(form);
+        }
+    }
+    function submitForm(e) {
+        e.preventDefault();
+        console.log(form)
+    }
     return (
-        <div>
-            <h2>Contact:</h2>
-            <form>
-                <label htmlFor='name'>Name:</label>
-                <input type='text' name='name'></input>
-                <label htmlFor='email'>Email:</label>
-                <input type='text' name='email'></input>
-                <label htmlFor='message'>Message:</label>
-                <textarea type='text' name='message'></textarea>
+        <div className='m-4 px-5'>
+            <h2 className='mb-4'>Contact:</h2>
+            <form onSubmit={submitForm}>
+                <div className='d-flex w-25 justify-content-between'>
+                    <div className='my-2'>
+                        <label htmlFor='name'className='d-block'>Name:</label>
+                        <input type='text' name='name' defaultValue={name} onBlur={monitorForm}></input>
+                    </div>
+                    <div className='my-2'>
+                        <label htmlFor='email' className='d-block'>Email:</label>
+                        <input type='text' name='email' defaultValue={email} onBlur={monitorForm}></input>
+                    </div>
+                </div>
+                <div className='my-2'>
+                    <label htmlFor='message' className='d-block'>Message:</label>
+                    <textarea type='text' name='message' rows='5' className='w-25' defaultValue={message} onBlur={monitorForm}></textarea>
+                </div>
+                <button type='submit' className='btn btn-secondary my-2'>Send</button>
             </form>
+            {warning && (
+                <div>
+                    <p>{warning}</p>
+                </div>
+            )}
         </div>
     )
 }
