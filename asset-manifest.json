@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-scscbc-challenge/static/css/main.50820346.css",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.668c3cdd.js",
+    "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
+    "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
+    "static/media/portfolio.png": "/react-portfolio-scscbc-challenge/static/media/portfolio.dfffa91f092c95e3cd13.png",
+    "static/media/weathcon.png": "/react-portfolio-scscbc-challenge/static/media/weathcon.91fda821bc269e4c862a.png",
+    "static/media/resume-example.pdf": "/react-portfolio-scscbc-challenge/static/media/resume-example.74a5c17b40fc92ed4961.pdf",
+    "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
+    "static/media/scheduler.png": "/react-portfolio-scscbc-challenge/static/media/scheduler.8a65e2d532fb27f21039.png",
+    "static/media/employee-tracker.png": "/react-portfolio-scscbc-challenge/static/media/employee-tracker.f001d14ef38794c9775c.png",
+    "static/media/team-generator.png": "/react-portfolio-scscbc-challenge/static/media/team-generator.19384f43963264f345f2.png",
+    "static/media/fermata.png": "/react-portfolio-scscbc-challenge/static/media/fermata.b320a5d001fbdad3deb1.png",
+    "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
+    "index.html": "/react-portfolio-scscbc-challenge/index.html",
+    "main.50820346.css.map": "/react-portfolio-scscbc-challenge/static/css/main.50820346.css.map",
+    "main.668c3cdd.js.map": "/react-portfolio-scscbc-challenge/static/js/main.668c3cdd.js.map",
+    "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50820346.css",
+    "static/js/main.668c3cdd.js"
+  ]
+}
