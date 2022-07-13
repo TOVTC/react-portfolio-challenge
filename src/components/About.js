@@ -8,11 +8,11 @@ function About() {
                 <div id='about-caption'>
                     <h2>TOVTC</h2>
                     <ul className='d-flex flex-wrap list-inline' id='title'>
-                        <li>ASPIRING FULL-STACK DEVELOPER</li>
-                        <li className='mx-1 vert'>|</li>
                         <li>MEDICAL LABORATORY ASSISTANT</li>
                         <li className='mx-1 vert'>|</li>
                         <li>MATHEMATICS INSTRUCTOR</li>
+                        <li className='mx-1 vert'>|</li>
+                        <li>FULL-STACK DEVELOPER</li>
                     </ul>
                 </div>
             </div>

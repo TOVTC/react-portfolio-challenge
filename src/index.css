@@ -50,6 +50,7 @@ header h1 a {
 nav li {
   cursor: pointer;
   color: var(--lightest);
+  margin: 1rem;
 }
 
 
@@ -165,8 +166,9 @@ header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
     font-size: 1.75rem;
   }
 
-  nav ul li {
+  nav li {
     font-size: 0.8rem;
+    margin: 0.5rem;
   }
 
   #about-caption {
