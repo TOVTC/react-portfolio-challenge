@@ -17,17 +17,18 @@ function Resume() {
                             <li>HTML</li>
                             <li>CSS (+ Bootstrap)</li>
                             <li>JavaScript (+ JQuery)</li>
-                            <li>React</li>
+                            <li>React (+ React Router)</li>
                         </ul>
                     </div>
                     <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkCode /> Backend Technologies</h3>
                         <ul>
                             <li>Node.js (+ npm)</li>
-                            <li>Jest</li>
                             <li>Express.js</li>
-                            <li>MySql (+ Sequelize)</li>
-                            <li>MongoDB</li>
+                            <li>MySQL (+ Sequelize)</li>
+                            <li>MongoDB (+ Mongoose)</li>
+                            <li>Webpack</li>
+                            <li>GraphQL</li>
                         </ul>
                     </div>
                     <div className='col-md-4 col-12'>
@@ -35,7 +36,10 @@ function Resume() {
                         <ul>
                             <li>R</li>
                             <li>Heroku (+ JawsDB, MongoDB Atlas)</li>
+                            <li>Jest</li>
                             <li>Handlebars</li>
+                            <li>Progressive Web Applications</li>
+                            <li>IndexedDB</li>
                         </ul>
                     </div>
                 </div>

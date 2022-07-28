@@ -6,6 +6,7 @@ import {BsGithub, BsLink} from "react-icons/bs";
 function Portfolio() {
     const [projects] = useState([
         // {name: '', deployed: true/false, focus: '', repo: '', link: '', img: ''},
+        {name: 'Locum', deployed: true, focus: 'React SPA', repo: 'https://github.com/SCScbc-Projects2022/project-three', link: 'https://locum-staffing.herokuapp.com/', img: 'locum'},
         {name: 'Employee Tracker', deployed: false, focus: 'SQL Database', repo: 'https://github.com/TOVTC/employee-tracker-scscbc-challenge', img: 'employee-tracker'},
         {name: 'Team Profile Generator', deployed: false, focus: 'Node.js', repo: 'https://github.com/TOVTC/team-profile-generator-scscbc-challenge', img: 'team-generator'},
         {name: 'Fermata', deployed: true, focus: 'Fullstack MVC', repo: 'https://github.com/TOVTC/Fermata-project-two', link: 'https://experience-fermata.herokuapp.com/home', img: 'fermata'},
