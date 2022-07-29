@@ -12,13 +12,13 @@ function About() {
                         <li className='mx-1 vert'>|</li>
                         <li>MATHEMATICS INSTRUCTOR</li>
                         <li className='mx-1 vert'>|</li>
-                        <li>FULL-STACK DEVELOPER</li>
+                        <li>FULL STACK DEVELOPER</li>
                     </ul>
                 </div>
             </div>
             <div className='row mt-3'>
                 <p>
-                    TOVTC here, medical laboratory assistant, mathematics instructor, full-stack developer. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree. I intially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
+                    TOVTC here, medical laboratory assistant, mathematics instructor, full stack developer. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree. I intially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
                 </p>
             </div>
             <div className='row mx-5 my-3'>
@@ -34,7 +34,7 @@ function About() {
             </div>
             <div className='row mb-3'>
                 <p>
-                    Currently, I'm a student with University of Toronto's School of Continuing Studies and in the final weeks of their Coding Bootcamp. The projects featured in this portfolio were created during this course - including this webpage you're reading now, which is a React single page application.
+                    I am newly graduated from University of Toronto's School of Continuing Studies Coding Bootcamp. The projects featured in this portfolio were created during this course - including this webpage you're reading now, which is a React single page application.
                     <br />
                     <br />
                     Hope you enjoy the products of this new journey of mine as much as I had fun learning it.

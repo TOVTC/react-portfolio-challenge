@@ -25,7 +25,7 @@
     
   ## Authors & Acknowledgements<a name="credits"></a>
   Special thanks to the following resources:</br>
-  Amitabh [here](https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8) for his regex email formatting validation.</br>
+  Amitabh [here](https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8) for his regex email formatting validation</br>
   Colour Palettes for their [#1451](https://colorpalettes.net/tag/yellow-and-gray/page/4/) palette which saved me from re-creating my first ever portfolio theme</br>
   Glad's article [here](https://blog.logrocket.com/using-bootstrap-with-react-tutorial-with-examples/) on integrating Bootstrap with React</br>
   Michael's switch statement article [here](https://medium.com/nerd-for-tech/a-case-to-switch-using-switch-statements-in-react-e83e01154f60)</br>
@@ -76,8 +76,4 @@
   WHEN I am presented with the Resume section</br>
   THEN I see a link to a downloadable resume and a list of the developer’s proficiencies</br>
   WHEN I view the footer</br>
-<<<<<<< HEAD
   THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
-=======
-  THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)</br>
->>>>>>> develop
