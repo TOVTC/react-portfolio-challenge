@@ -34,7 +34,7 @@ function About() {
             </div>
             <div className='row mb-3'>
                 <p>
-                    I am newly graduated from University of Toronto's School of Continuing Studies Coding Bootcamp. Many of the projects featured in this portfolio were created during this course - including this webpage you're reading now, which is a React single page application.
+                    I am newly graduated from University of Toronto's School of Continuing Studies Coding Bootcamp. Many of the projects featured in this portfolio were created as challenge applications for this course - including this webpage you're reading now, which is a React single page application. 
                     <br />
                     <br />
                     Hope you enjoy the products of this new journey of mine as much as I had fun learning it.

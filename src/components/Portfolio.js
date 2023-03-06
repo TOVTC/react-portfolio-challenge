@@ -25,7 +25,7 @@ function Portfolio() {
     return (
         <div className='container'>
             <div className='row mb-2'>
-                <h2>Portfolio</h2>
+                <h2>Portfolio - Featured Applications</h2>
             </div>
             <div className='row'>
                 <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>
@@ -74,6 +74,11 @@ function Portfolio() {
                         )}
                     </div>
                 </div>
+                <div className='row mt-2 mb-3'>
+                <p>
+                    For a complete list of applications I have worked on, please navigate to my <a href='https://github.com/TOVTC'>GitHub</a> account.
+                </p>
+            </div>
         </div>
     )
 }

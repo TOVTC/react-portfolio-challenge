@@ -34,7 +34,6 @@ function Resume() {
                     <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkRuled /> Other Technologies</h3>
                         <ul>
-                            <li>R</li>
                             <li>Heroku (+ JawsDB, MongoDB Atlas)</li>
                             <li>Jest</li>
                             <li>Handlebars</li>
