@@ -14,7 +14,7 @@ function Portfolio() {
         {name: 'Employee Tracker', deployed: false, focus: 'SQL Database', repo: 'https://github.com/TOVTC/employee-tracker-challenge', img: 'employee-tracker'},
         {name: 'Team Profile Generator', deployed: false, focus: 'Node.js', repo: 'https://github.com/TOVTC/team-profile-generator-challenge', img: 'team-generator'},
         {name: 'Fermata', deployed: true, focus: 'Fullstack MVC', repo: 'https://github.com/TOVTC/Fermata-project-two', link: 'https://experience-fermata.herokuapp.com/home', img: 'fermata'},
-        {name: 'WeathCon', deployed: true, focus: 'Interactive Frontend', repo: 'https://github.com/TOVTC/WeathCon-project-one', link: 'https://projects2022.github.io/WeathCon-project-one/', img: 'weathcon'},
+        {name: 'WeathCon', deployed: true, focus: 'Interactive Frontend', repo: 'https://github.com/TOVTC/WeathCon-project-one', link: 'https://scscbc-projects2022.github.io/WeathCon-project-one/', img: 'weathcon'},
         {name: 'Weather Dashboard', deployed: true, focus: 'Server-Side APIs', repo: 'https://github.com/TOVTC/weather-dashboard-challenge', link: 'https://tovtc.github.io/weather-dashboard-challenge/', img: 'weather-dashboard'},
         {name: 'Workday Scheduler', deployed: true, focus: 'Third-Party APIs', repo: 'https://github.com/TOVTC/scheduler-challenge', link: 'https://tovtc.github.io/scheduler-challenge/', img: 'scheduler'},
         {name: 'Code Quiz', deployed: true, focus: 'Web APIs', repo: 'https://github.com/TOVTC/code-quiz-challenge', link: 'https://tovtc.github.io/code-quiz-challenge/', img: 'coding-quiz'},
