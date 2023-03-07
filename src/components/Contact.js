@@ -22,12 +22,20 @@ function Contact() {
         }
         if (!warning) {
             setForm({...form, [e.target.name]: e.target.value});
-            console.log(form);
+            // console.log(form);
         }
     }
     function submitForm(e) {
         e.preventDefault();
-        console.log(form)
+        // console.log(form);
+        let email = document.createElement("a");
+        email.href = `mailto:veronica.tc.to@outlook.com?subject=${form.name}&body=${form.message}`;
+        email.click();
+        // don't forget to clean this up
+        form.name = '';
+        form.email = '';
+        form.message = '';
+        console.log(form);
     }
     return (
         <div className='container'>
