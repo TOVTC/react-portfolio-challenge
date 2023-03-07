@@ -43,8 +43,8 @@ function Resume() {
                     </div>
                 </div>
             <div className='row mt-3'>
-                <h2>Full Resume</h2>
-                <p>Available for download <a href={require('../assets/documents/resume-example.pdf')} download className='mini-link'>here</a></p>
+                <h2>Projects Resume</h2>
+                <p>Available for download <a href={require('../assets/documents/ToV-Projects_Resume.pdf')} download className='mini-link'>here</a></p>
             </div>        
         </div>
     )

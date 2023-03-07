@@ -6,7 +6,7 @@ import {BsGithub, BsLink} from "react-icons/bs";
 function Portfolio() {
     const [projects] = useState([
         // {name: '', deployed: true/false, focus: '', repo: '', link: '', img: ''},
-        {name: 'CatWorx', deployed: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'csharp-catworx'},
+        {name: 'CatWorx', deployed: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'placeholder'},
         {name: 'Just Tech News', deployed: true, focus: 'Java Fullstack MVC', repo: 'https://github.com/TOVTC/tech-news-java-api', link: 'https://cc-java-api-777.herokuapp.com/', img: 'java-tech-news'},
         {name: 'Java Employee Tracker', deployed: false, focus: 'Spring Boot API', repo: 'https://github.com/TOVTC/java-spring-employee-api', img: 'java-employee-api'},
         {name: 'Hello, User!', deployed: false, focus: 'Java API', repo: 'https://github.com/TOVTC/spring-java-greeting-api', img: 'java-hello-user'},
@@ -55,26 +55,26 @@ function Portfolio() {
                 <h3 className='mt-5'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
             </div>
             <div className='row mt-2'>
-                    <div className='col d-flex flex-wrap my-3 projects'>
-                        {!nondeployedApps.length ? (
-                            <p>No applications of this type featured!</p>
-                        ) : (
-                            nondeployedApps.map(app => (
-                                <div className='m-3 p-4 radius project' key={app.name}>
-                                    <a href={app.repo}>
-                                        <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
-                                    </a>
-                                    <h4 className='mt-4'>{app.name}</h4>
-                                    <div className='my-3'>
-                                        <p>Focus: {app.focus}</p>
-                                        <BsGithub /><a href={app.repo} className='mx-2 p-1 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
-                                    </div>
+                <div className='col d-flex flex-wrap my-3 projects'>
+                    {!nondeployedApps.length ? (
+                        <p>No applications of this type featured!</p>
+                    ) : (
+                        nondeployedApps.map(app => (
+                            <div className='m-3 p-4 radius project' key={app.name}>
+                                <a href={app.repo}>
+                                    <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
+                                </a>
+                                <h4 className='mt-4'>{app.name}</h4>
+                                <div className='my-3'>
+                                    <p>Focus: {app.focus}</p>
+                                    <BsGithub /><a href={app.repo} className='mx-2 p-1 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
                                 </div>
-                            ))
-                        )}
-                    </div>
+                            </div>
+                        ))
+                    )}
                 </div>
-                <div className='row mt-2 mb-3'>
+            </div>
+            <div className='row mt-2 mb-3'>
                 <p>
                     For a complete list of applications I have worked on, please navigate to my <a href='https://github.com/TOVTC'>GitHub</a> account.
                 </p>
