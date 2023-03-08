@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {validate} from '../utils/helpers.js';
 import {BsEnvelope} from "react-icons/bs";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
     const [form, setForm] = useState({name: '', email: '', message: ''});
@@ -27,15 +28,12 @@ function Contact() {
     }
     function submitForm(e) {
         e.preventDefault();
-        // console.log(form);
-        let email = document.createElement("a");
-        email.href = `mailto:veronica.tc.to@outlook.com?subject=${form.name}&body=${form.message}`;
-        email.click();
-        // don't forget to clean this up
-        form.name = '';
-        form.email = '';
-        form.message = '';
-        console.log(form);
+        emailjs.send('service_nag7qdo','template_5jklzm7', form, 'j2nBG-yr1qCSBDVXJ')
+        .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        }, (err) => {
+        console.log('FAILED...', err);
+        });
     }
     return (
         <div className='container'>
