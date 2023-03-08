@@ -23,17 +23,22 @@ function Contact() {
         }
         if (!warning) {
             setForm({...form, [e.target.name]: e.target.value});
-            // console.log(form);
         }
     }
     function submitForm(e) {
         e.preventDefault();
-        emailjs.send('service_nag7qdo','template_5jklzm7', form, 'j2nBG-yr1qCSBDVXJ')
-        .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        }, (err) => {
-        console.log('FAILED...', err);
-        });
+            emailjs.send('service_nag7qdo','template_5jklzm7', form, 'j2nBG-yr1qCSBDVXJ')
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                alert(`Email from ${name} successfully sent!
+
+                Reply to Email: ${form.email}
+
+                Message: ${form.message}`);
+                document.location.reload();
+            }, (err) => {
+                console.log('FAILED...', err);
+            });
     }
     return (
         <div className='container'>

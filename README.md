@@ -6,16 +6,26 @@
   ## Table of Contents
   * [Features](#features)
   * [Installation](#installation)
+  * [Built With](#built)
   * [Usage Information](#usage)
   * [Authors & Acknowledgements](#credits)
   * [License](#license)
   * [Contact](#questions)
   
   ## Bonus Features<a name="features"></a>
-  This application differentiates between deployed and non-deployed applications, which are categorically rendered in the portfolio component.
+  This application differentiates between deployed and non-deployed applications, which are categorically rendered in the portfolio component. The contact form is also EmailJS enabled and will send a message to my professional email upon form submission.
     
   ## Installation <a name="installation"></a>
   This application can be accessed via its deployed GitHub pages link.
+
+  ## Built With<a name="built"></a>
+  * JavaScript
+  * React
+  * Bootstrap
+  * Jest
+  * gh-pages
+  * EmailJS
+  * react-icons
   
   ## Usage Information<a name="usage"></a>
   [Personal Portfolio (React SPA)](https://tovtc.github.io/react-portfolio-scscbc-challenge/)</br>
