@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.a4f30afb.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.2738ae0b.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/portfolio.png": "/react-portfolio-scscbc-challenge/static/media/portfolio.dfffa91f092c95e3cd13.png",
     "static/media/weathcon.png": "/react-portfolio-scscbc-challenge/static/media/weathcon.91fda821bc269e4c862a.png",
-    "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.7eecf907becd081298f4.pdf",
+    "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.abdd56ecbf56e6bcd80d.pdf",
     "static/media/java-hello-user.png": "/react-portfolio-scscbc-challenge/static/media/java-hello-user.b770baa7b4562e931690.png",
     "static/media/java-employee-api.png": "/react-portfolio-scscbc-challenge/static/media/java-employee-api.1a7513e0768e26b02ad6.png",
     "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
@@ -19,11 +19,11 @@
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.b9214c85.css.map": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css.map",
-    "main.a4f30afb.js.map": "/react-portfolio-scscbc-challenge/static/js/main.a4f30afb.js.map",
+    "main.2738ae0b.js.map": "/react-portfolio-scscbc-challenge/static/js/main.2738ae0b.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9214c85.css",
-    "static/js/main.a4f30afb.js"
+    "static/js/main.2738ae0b.js"
   ]
 }
