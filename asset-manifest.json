@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.86d1ff0e.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.a4f30afb.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/portfolio.png": "/react-portfolio-scscbc-challenge/static/media/portfolio.dfffa91f092c95e3cd13.png",
@@ -19,11 +19,11 @@
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.b9214c85.css.map": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css.map",
-    "main.86d1ff0e.js.map": "/react-portfolio-scscbc-challenge/static/js/main.86d1ff0e.js.map",
+    "main.a4f30afb.js.map": "/react-portfolio-scscbc-challenge/static/js/main.a4f30afb.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9214c85.css",
-    "static/js/main.86d1ff0e.js"
+    "static/js/main.a4f30afb.js"
   ]
 }
