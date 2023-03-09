@@ -11,7 +11,7 @@ function Portfolio() {
     return (
         <div className='container'>
             <div className='row mb-2'>
-                <h2>Portfolio - Featured Applications</h2>
+                <h2>Portfolio</h2>
             </div>
             <div className='row'>
                 <h3 className='my-2'><BsFileEarmarkPost /> Deployed Applications</h3>

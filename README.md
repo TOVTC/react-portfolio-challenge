@@ -45,7 +45,7 @@
   Hive7's [answer](https://stackoverflow.com/questions/18548465/prevent-scroll-bar-from-adding-up-to-the-width-of-page-on-chrome) on scroll bars</br>
   Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br></br>  
   Abderrahim's [answer](https://stackoverflow.com/questions/54532123/export-array-to-be-used-in-another-javascript-file) on exporting arrays</br></br>  
-  And surprising no one, [Erik](https://github.com/CodingErik), for helping my debug my initial React deployment (SSH really woke up and chose violence)
+  And surprising no one, [Erik](https://github.com/CodingErik), for helping me debug my initial React deployment (SSH really woke up and chose violence)
   
   Made by [TOVTC](https://github.com/TOVTC).</br>
   Originally submitted 2022Jul11.
