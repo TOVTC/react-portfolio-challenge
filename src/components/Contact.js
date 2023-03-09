@@ -27,16 +27,18 @@ function Contact() {
     }
     function submitForm(e) {
         e.preventDefault();
+        setWarning('Email sending...');
             emailjs.send('service_nag7qdo','template_5jklzm7', form, 'j2nBG-yr1qCSBDVXJ')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert(`Email from ${name} successfully sent!
 
-                Reply to Email: ${form.email}
+                Reply to Email: ${email}
 
-                Message: ${form.message}`);
+                Message: ${message}`);
                 document.location.reload();
             }, (err) => {
+                alert('Unable to send email!');
                 console.log('FAILED...', err);
             });
     }

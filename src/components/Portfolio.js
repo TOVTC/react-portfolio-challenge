@@ -1,25 +1,11 @@
 import React, {useState} from 'react';
-import {BsFileEarmarkPost, BsFileEarmarkCode} from "react-icons/bs";
-import {BsGithub, BsLink} from "react-icons/bs";
+import {BsFileEarmarkPost, BsFileEarmarkCode} from 'react-icons/bs';
+import {BsGithub, BsLink} from 'react-icons/bs';
+import {projectList} from '../assets/js/projectList';
 
 
 function Portfolio() {
-    const [projects] = useState([
-        // {name: '', deployed: true/false, focus: '', repo: '', link: '', img: ''},
-        {name: 'CatWorx', deployed: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'placeholder'},
-        {name: 'Just Tech News', deployed: true, focus: 'Java Fullstack MVC', repo: 'https://github.com/TOVTC/tech-news-java-api', link: 'https://cc-java-api-777.herokuapp.com/', img: 'java-tech-news'},
-        {name: 'Java Employee Tracker', deployed: false, focus: 'Spring Boot API', repo: 'https://github.com/TOVTC/java-spring-employee-api', img: 'java-employee-api'},
-        {name: 'Hello, User!', deployed: false, focus: 'Java API', repo: 'https://github.com/TOVTC/spring-java-greeting-api', img: 'java-hello-user'},
-        {name: 'Locum', deployed: true, focus: 'React SPA', repo: 'https://github.com/TOVTC/Locum-project-three', link: 'https://locum-staffing.herokuapp.com/', img: 'locum'},
-        {name: 'Employee Tracker', deployed: false, focus: 'SQL Database', repo: 'https://github.com/TOVTC/employee-tracker-challenge', img: 'employee-tracker'},
-        {name: 'Team Profile Generator', deployed: false, focus: 'Node.js', repo: 'https://github.com/TOVTC/team-profile-generator-challenge', img: 'team-generator'},
-        {name: 'Fermata', deployed: true, focus: 'Fullstack MVC', repo: 'https://github.com/TOVTC/Fermata-project-two', link: 'https://experience-fermata.herokuapp.com/home', img: 'fermata'},
-        {name: 'WeathCon', deployed: true, focus: 'Interactive Frontend', repo: 'https://github.com/TOVTC/WeathCon-project-one', link: 'https://scscbc-projects2022.github.io/WeathCon-project-one/', img: 'weathcon'},
-        {name: 'Weather Dashboard', deployed: true, focus: 'Server-Side APIs', repo: 'https://github.com/TOVTC/weather-dashboard-challenge', link: 'https://tovtc.github.io/weather-dashboard-scscbc-challenge/', img: 'weather-dashboard'},
-        {name: 'Workday Scheduler', deployed: true, focus: 'Third-Party APIs', repo: 'https://github.com/TOVTC/scheduler-challenge', link: 'https://tovtc.github.io/scheduler-scscbc-challenge/', img: 'scheduler'},
-        {name: 'Code Quiz', deployed: true, focus: 'Web APIs', repo: 'https://github.com/TOVTC/code-quiz-challenge', link: 'https://tovtc.github.io/code-quiz-scscbc-challenge/', img: 'coding-quiz'},
-        {name: 'Personal Portfolio', deployed: true, focus: 'CSS Flexbox', repo: 'https://github.com/TOVTC/portfolio-challenge', link: 'https://tovtc.github.io/portfolio-scscbc-challenge/', img: 'portfolio'},
-    ]);
+    const [projects] = useState(projectList);
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
     return (
