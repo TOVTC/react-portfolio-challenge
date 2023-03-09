@@ -13,7 +13,7 @@
   * [Contact](#questions)
   
   ## Bonus Features<a name="features"></a>
-  This application differentiates between deployed and non-deployed applications, which are categorically rendered in the portfolio component. The contact form is also EmailJS enabled and will send a message to my professional email upon form submission.
+  This application differentiates between deployed and non-deployed applications as well as group projects, which are categorically rendered in the portfolio component. The contact form is also EmailJS enabled and will send an email to my inbox upon form submission.
     
   ## Installation <a name="installation"></a>
   This application can be accessed via its deployed GitHub pages link.
@@ -43,7 +43,7 @@
   Dominic's article [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) on footer positioning</br>
   Miracle's [article](https://www.freecodecamp.org/news/how-to-use-react-icons/) on using icons in React</br>
   Hive7's [answer](https://stackoverflow.com/questions/18548465/prevent-scroll-bar-from-adding-up-to-the-width-of-page-on-chrome) on scroll bars</br>
-  Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br></br>  
+  Arleigh's [answer](https://stackoverflow.com/questions/69301335/bootstrap-padding-left-and-right-is-not-working) on Bootstrap margins</br>
   Abderrahim's [answer](https://stackoverflow.com/questions/54532123/export-array-to-be-used-in-another-javascript-file) on exporting arrays</br></br>  
   And surprising no one, [Erik](https://github.com/CodingErik), for helping me debug my initial React deployment (SSH really woke up and chose violence)
   
