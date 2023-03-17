@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {BsFileEarmarkPost, BsFileEarmarkCode} from 'react-icons/bs';
-import {BsGithub, BsLink, BsPeopleFill} from 'react-icons/bs';
+import {BsFileEarmarkPost, BsFileEarmarkCode, BsGithub, BsLink, BsPeopleFill} from 'react-icons/bs';
 import {projectList} from '../utils/projectList';
 
 

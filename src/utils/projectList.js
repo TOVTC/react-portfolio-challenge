@@ -1,7 +1,7 @@
 export let projectList = [
     // {name: '', deployed: true/false, collaborative: true/false, focus: '', repo: '', link: '', img: ''},
     // personal projects
-    {name: 'CatWorx', deployed: false, collaborative: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'placeholder'},
+    {name: 'CatWorx', deployed: false, collaborative: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'csharp-catworx'},
     {name: 'Just Tech News', deployed: true, collaborative: false, focus: 'Java Full Stack MVC', repo: 'https://github.com/TOVTC/tech-news-java-api', link: 'https://cc-java-api-777.herokuapp.com/', img: 'java-tech-news'},
     {name: 'Java Employee Tracker', deployed: false, collaborative: false, focus: 'Spring Boot API', repo: 'https://github.com/TOVTC/java-spring-employee-api', img: 'java-employee-api'},
     {name: 'Hello, User!', deployed: false, collaborative: false, focus: 'Java API', repo: 'https://github.com/TOVTC/spring-java-greeting-api', img: 'java-hello-user'},
