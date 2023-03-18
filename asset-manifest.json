@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.14bb2ee6.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.956f4a8f.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/horiseon.png": "/react-portfolio-scscbc-challenge/static/media/horiseon.758d89a266320fc76598.png",
@@ -10,7 +10,7 @@
     "static/media/weathcon.png": "/react-portfolio-scscbc-challenge/static/media/weathcon.91fda821bc269e4c862a.png",
     "static/media/csharp-catworx.png": "/react-portfolio-scscbc-challenge/static/media/csharp-catworx.ddc1e876f2fc2c4907db.png",
     "static/media/react-portfolio.png": "/react-portfolio-scscbc-challenge/static/media/react-portfolio.2fda8d372c13adef23ea.png",
-    "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.abdd56ecbf56e6bcd80d.pdf",
+    "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.12fe7d488e859a8ea41a.pdf",
     "static/media/java-hello-user.png": "/react-portfolio-scscbc-challenge/static/media/java-hello-user.b770baa7b4562e931690.png",
     "static/media/java-employee-api.png": "/react-portfolio-scscbc-challenge/static/media/java-employee-api.1a7513e0768e26b02ad6.png",
     "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
@@ -28,11 +28,11 @@
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.b9214c85.css.map": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css.map",
-    "main.14bb2ee6.js.map": "/react-portfolio-scscbc-challenge/static/js/main.14bb2ee6.js.map",
+    "main.956f4a8f.js.map": "/react-portfolio-scscbc-challenge/static/js/main.956f4a8f.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9214c85.css",
-    "static/js/main.14bb2ee6.js"
+    "static/js/main.956f4a8f.js"
   ]
 }
