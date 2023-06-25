@@ -1,10 +1,13 @@
 export let projectList = [
     // {name: '', deployed: true/false, collaborative: true/false, focus: '', repo: '', link: '', img: ''},
     // personal projects
-    {name: 'C# CatWorx Badge Generator', deployed: false, collaborative: false, focus: 'C#, ASP.NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'csharp-catworx'},
+    {name: 'To Do List API', deployed: false, collaborative: false, focus: 'C#, .NET Core, Entity', repo: 'https://github.com/TOVTC/csharp-dotnet-todo-api-tutorial', img: 'to-do'},
+    {name: 'Vue 3 Movie Lookup', deployed: true, collaborative: false, focus: 'Vue 3', repo: 'https://github.com/TOVTC/vue3-movie-lookup', link: 'https://vue-3-movie-lookup.onrender.com/', img: 'movie-lookup-3'},
+    {name: 'Vue 2 Movie Lookup', deployed: true, collaborative: false, focus: 'Vue 2', repo: 'https://github.com/TOVTC/vue-movie-lookup', link: 'https://tovtc.github.io/vue-movie-lookup/', img: 'movie-lookup-2'},
+    {name: 'Connect Four', deployed: false, collaborative: false, focus: 'Object Oriented Programming, Algorithms', repo: 'https://github.com/TOVTC/connect-four', img: 'connect-four'},
+    {name: 'CatWorx Badge Generator', deployed: false, collaborative: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'csharp-catworx'},
     {name: 'Just Tech News', deployed: true, collaborative: false, focus: 'Java Full Stack MVC', repo: 'https://github.com/TOVTC/tech-news-java-api', link: 'https://cc-java-api-777.herokuapp.com/', img: 'java-tech-news'},
-    {name: 'Java Employee Tracker', deployed: false, collaborative: false, focus: 'Spring Boot API', repo: 'https://github.com/TOVTC/java-spring-employee-api', img: 'java-employee-api'},
-    {name: 'Hello, User!', deployed: false, collaborative: false, focus: 'Java API', repo: 'https://github.com/TOVTC/spring-java-greeting-api', img: 'java-hello-user'},
+    {name: 'Employee Tracker', deployed: false, collaborative: false, focus: 'Java, Spring Boot API', repo: 'https://github.com/TOVTC/java-spring-employee-api', img: 'java-employee-api'},
     // bootcamp challenges
     {name: 'Locum', deployed: true, collaborative: true, focus: 'Full Stack React SPA', repo: 'https://github.com/TOVTC/Locum-project-three', link: 'https://locum-staffing.herokuapp.com/', img: 'locum'},
     {name: 'React Portfolio', deployed: true, collaborative: false, focus: 'React SPA', repo: 'https://github.com/TOVTC/react-portfolio-scscbc-challenge', link: 'https://tovtc.github.io/react-portfolio-scscbc-challenge/', img: 'react-portfolio'},

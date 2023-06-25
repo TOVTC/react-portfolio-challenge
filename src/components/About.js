@@ -8,36 +8,38 @@ function About() {
                 <div id='about-caption'>
                     <h2>TOVTC</h2>
                     <ul className='d-flex flex-wrap list-inline' id='title'>
-                        <li>FULL STACK DEVELOPER</li>
+                        <li>Junior Developer </li>
                         <li className='mx-1 vert'>|</li>
-                        <li>MATHEMATICS INSTRUCTOR</li>
+                        <li>Instructional Specialist</li>
                         <li className='mx-1 vert'>|</li>
-                        <li>FORMER HEALTHCARE WORKER</li>
+                        <li>Mathematics Instructor</li>
                     </ul>
                 </div>
             </div>
             <div className='row mt-3'>
                 <p>
-                    TOVTC here, full stack developer, mathematics instructor, former healthcare worker. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree. I intially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
+                    TOVTC here, full stack junior developer, instructional specialist, and mathematics instructor. My original field of study was mental health, and I've worked in the mental health, non-profit, and healthcare sectors throughout and since my undergraduate degree, working everything from social work to primary care clinics to addictions research to medical laboratory. I've also been a mathematics instructor since 2014. I initially got into coding during my final semester at university when I took a neuroeconomics course (think neuroscience of decision making) that required statistical analysis using R - and that was pretty fun.
+                    <br/>
+                    <br/>
+                    After graduating University of Toronto's School of Continuing Studies Coding Bootcamp in 2022, I became a TA for their web development program and a junior developer at i3 Solutions Inc in healthcare technologies shortly after - something of a dream job, considering my prior work and educational backgrounds.
                 </p>
             </div>
             <div className='row mx-5 my-3'>
                 <ul className='about-text'>
                     <li>😝 Pronouns: She/Her/她</li>
-                    <li>💻 Current project: University of Toronto Coding Bootcamps Continuation Courses (C#, Java) + Full Stack Flex Web Development Assistant Instructor</li>
-                    <li>🎓 Educational background: BSc in mental health from the University of Toronto under their co-op program</li>
-                    <li>🏢 Work background: primarily in the mental health, non-profit, and healthcare sectors</li>
-                    <li>📝 Looking for: opportunities to work on new and challenging projects - learning by doing has taught me the fastest</li>
+                    <li>🇭🇰  Bilingual: English, Cantonese (廣東話)</li>
+                    <li>💻 Current coding projects: healthcare technologies with i3, web development with EdX x UofT</li>
+                    <li>🎓 Prior educational background: Honours BSc with distinction in mental health from the University of Toronto under their co-op program</li>
+                    <li>🏢 Prior work background: primarily in the mental health, non-profit, and healthcare sectors</li>
                     <li>❓ Ask me about: overly convoluted hypotheticals</li>
-                    <li>🌻 Fun fact: I like sunflowers, nerd stuff, and punk music (but I'll pretty much listen to anything)</li>
+                    <li>🌵 Self development: maintaining a consistent 6x a week gym schedule, keeping all my non-cacti houseplants alive, and improving my Chinese reading and writing skills</li>
+                    <li>💥 Fun fact from my youth: I have an Industry Canada aeronautical radio license and was a trained RCAC ceremonial drill instructor on the rifle drill team until I retired from the program in 2014 at the rank of Warrant Officer 2nd Class</li>
+                    <li>🌻 Relevant fun fact: I like sunflowers, nerd stuff, and punk music (but I'll pretty much listen to anything - from 1950's jazz to Cantonese nu-metal)</li>
                 </ul>
             </div>
             <div className='row mb-3'>
                 <p>
-                    I am newly graduated from University of Toronto's School of Continuing Studies Coding Bootcamp. Many of the projects featured in this portfolio were created as challenge applications for this course - including this webpage you're reading now, which is a React single page application. 
-                    <br />
-                    <br />
-                    Hope you enjoy the products of this new journey of mine as much as I had fun learning it.
+                    Outside of coding, teaching, and healthcare, I also have a passion for narrative and English literature and was nominated for University of Toronto's English Department Essay Prize by my professor in 2019. The essay in question was a think-piece on the interrogation of real-world accessibility in Fraction and Aja's Hawkeye (2012) (but I'm also into other nerd stuff, not just comics).
                 </p>
             </div>
         </div>
