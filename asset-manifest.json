@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.956f4a8f.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.33092d44.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/horiseon.png": "/react-portfolio-scscbc-challenge/static/media/horiseon.758d89a266320fc76598.png",
@@ -9,13 +9,15 @@
     "static/media/readme-generator.png": "/react-portfolio-scscbc-challenge/static/media/readme-generator.333675e71176f4bb1469.png",
     "static/media/weathcon.png": "/react-portfolio-scscbc-challenge/static/media/weathcon.91fda821bc269e4c862a.png",
     "static/media/csharp-catworx.png": "/react-portfolio-scscbc-challenge/static/media/csharp-catworx.ddc1e876f2fc2c4907db.png",
+    "static/media/movie-lookup-3.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-3.2befa369f60337fdbb19.png",
     "static/media/react-portfolio.png": "/react-portfolio-scscbc-challenge/static/media/react-portfolio.2fda8d372c13adef23ea.png",
     "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.12fe7d488e859a8ea41a.pdf",
-    "static/media/java-hello-user.png": "/react-portfolio-scscbc-challenge/static/media/java-hello-user.b770baa7b4562e931690.png",
+    "static/media/movie-lookup-2.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-2.4d4394b72c20df8c206b.png",
     "static/media/java-employee-api.png": "/react-portfolio-scscbc-challenge/static/media/java-employee-api.1a7513e0768e26b02ad6.png",
     "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
     "static/media/budget-tracker.png": "/react-portfolio-scscbc-challenge/static/media/budget-tracker.3bc1a1a74c5229bf7cbf.png",
     "static/media/social-network-api.png": "/react-portfolio-scscbc-challenge/static/media/social-network-api.c0de090a4df54cbf6b80.png",
+    "static/media/to-do.png": "/react-portfolio-scscbc-challenge/static/media/to-do.8c87e04e2bfbe7f906ec.png",
     "static/media/e-commerce.png": "/react-portfolio-scscbc-challenge/static/media/e-commerce.231ebc60f15241703e37.png",
     "static/media/scheduler.png": "/react-portfolio-scscbc-challenge/static/media/scheduler.8a65e2d532fb27f21039.png",
     "static/media/note-taker.png": "/react-portfolio-scscbc-challenge/static/media/note-taker.6207262a3f00cbb9a329.png",
@@ -25,14 +27,15 @@
     "static/media/password-generator.png": "/react-portfolio-scscbc-challenge/static/media/password-generator.898badc6ccbd8b7fee66.png",
     "static/media/java-tech-news.png": "/react-portfolio-scscbc-challenge/static/media/java-tech-news.55a8180fd104747faf6b.png",
     "static/media/fermata.png": "/react-portfolio-scscbc-challenge/static/media/fermata.b320a5d001fbdad3deb1.png",
+    "static/media/connect-four.png": "/react-portfolio-scscbc-challenge/static/media/connect-four.c1f5d95e77a5f802c602.png",
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.b9214c85.css.map": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css.map",
-    "main.956f4a8f.js.map": "/react-portfolio-scscbc-challenge/static/js/main.956f4a8f.js.map",
+    "main.33092d44.js.map": "/react-portfolio-scscbc-challenge/static/js/main.33092d44.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9214c85.css",
-    "static/js/main.956f4a8f.js"
+    "static/js/main.33092d44.js"
   ]
 }
