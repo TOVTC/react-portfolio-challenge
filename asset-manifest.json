@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.33092d44.js",
+    "main.css": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.6d0aba6e.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/horiseon.png": "/react-portfolio-scscbc-challenge/static/media/horiseon.758d89a266320fc76598.png",
@@ -28,14 +28,15 @@
     "static/media/java-tech-news.png": "/react-portfolio-scscbc-challenge/static/media/java-tech-news.55a8180fd104747faf6b.png",
     "static/media/fermata.png": "/react-portfolio-scscbc-challenge/static/media/fermata.b320a5d001fbdad3deb1.png",
     "static/media/connect-four.png": "/react-portfolio-scscbc-challenge/static/media/connect-four.c1f5d95e77a5f802c602.png",
+    "static/media/docker-to-do.png": "/react-portfolio-scscbc-challenge/static/media/docker-to-do.e5d8fb78a8497534a461.png",
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
-    "main.b9214c85.css.map": "/react-portfolio-scscbc-challenge/static/css/main.b9214c85.css.map",
-    "main.33092d44.js.map": "/react-portfolio-scscbc-challenge/static/js/main.33092d44.js.map",
+    "main.eb676db2.css.map": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css.map",
+    "main.6d0aba6e.js.map": "/react-portfolio-scscbc-challenge/static/js/main.6d0aba6e.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9214c85.css",
-    "static/js/main.33092d44.js"
+    "static/css/main.eb676db2.css",
+    "static/js/main.6d0aba6e.js"
   ]
 }
