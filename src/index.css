@@ -92,6 +92,11 @@ nav li {
   color: var(--medium);
 }
 
+#group-link, #deployed-link, #not-deployed-link, #top-link {
+  text-decoration: none;
+  color: var(--medium);
+}
+
 /* contact */
 #contact {
   color: var(--lightest);
@@ -134,7 +139,7 @@ footer a {
 }
 
 /* responsive */
-header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
+header h1 a:hover, nav li:hover, footer a:hover, .mini-link:hover, #group-link:hover, #deployed-link:hover, #not-deployed-link:hover, #top-link:hover {
   color: var(--accent);
 }
 

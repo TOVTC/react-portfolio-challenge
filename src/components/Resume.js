@@ -14,6 +14,9 @@ function Resume() {
                 <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkPost /> Frontend Technologies</h3>
                         <ul>
+                            <li>Vue 2 & 3 (Composition)</li>
+                            <li>Tailwind CSS</li>
+                            <li>Dart (+ Flutter)</li>
                             <li>HTML</li>
                             <li>CSS (+ Bootstrap)</li>
                             <li>JavaScript (+ JQuery)</li>
@@ -23,6 +26,9 @@ function Resume() {
                     <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkCode /> Backend Technologies</h3>
                         <ul>
+                            <li>C#</li>
+                            <li>Entity Framework Core</li>
+                            <li>SQLExpress</li>
                             <li>Node.js (+ npm)</li>
                             <li>Express.js</li>
                             <li>MySQL (+ Sequelize)</li>
@@ -34,6 +40,8 @@ function Resume() {
                     <div className='col-md-4 col-12'>
                         <h3><BsFileEarmarkRuled /> Other Technologies</h3>
                         <ul>
+                            <li>Docker</li>
+                            <li>Android Studio</li>
                             <li>Heroku (+ JawsDB, MongoDB Atlas)</li>
                             <li>Jest</li>
                             <li>Handlebars</li>

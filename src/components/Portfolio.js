@@ -10,10 +10,13 @@ function Portfolio() {
     const nondeployedApps = projects.filter(project => project.deployed === false);
     return (
         <div className='container'>
-            <div className='row mb-2'>
+            <div id='top' className='row mb-2'>
                 <h2>Portfolio</h2>
+                <p>
+                    Jump to: <a id='group-link' href='#group'>Group Projects</a> | <a id='deployed-link' href='#deployed'>Deployed Applications</a> | <a id='not-deployed-link' href='#not-deployed'>Non-deployed Applications</a>
+                </p>
             </div>
-            <div className='row'>
+            <div id='group' className='row'>
                 <h3 className='mt-2'><BsPeopleFill /> Collaborative Group Projects</h3>
             </div>
             <div className='row'>
@@ -22,7 +25,7 @@ function Portfolio() {
                         <p>No applications of this type featured!</p>
                     ) : (
                         collaborativeApps.map(app => (
-                            <div className='m-3 p-4 radius project' key={app.name}>
+                            <div className='m-3 p-4 radius project' key={app.name + 'group'}>
                                 <a href={app.repo}>
                                     <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                 </a>
@@ -37,7 +40,7 @@ function Portfolio() {
                     )}
                 </div>
             </div>
-            <div className='row'>
+            <div id='deployed' className='row'>
                 <h3 className='mt-5 mb-2'><BsFileEarmarkPost /> Deployed Applications</h3>
             </div>
             <div className='row'>
@@ -61,7 +64,7 @@ function Portfolio() {
                     )}
                 </div>
             </div>
-            <div className='row'>
+            <div id='not-deployed' className='row'>
                 <h3 className='mt-5'><BsFileEarmarkCode /> Non-Deployed Applications</h3>
             </div>
             <div className='row mt-2'>
@@ -86,7 +89,10 @@ function Portfolio() {
             </div>
             <div className='row mt-2 mb-5'>
                 <p>
-                    For a complete list of applications I have worked on, please navigate to my <a href='https://github.com/TOVTC'>GitHub</a> account.
+                    For a complete list of applications I have worked on, please navigate to my <a href='https://github.com/TOVTC' className='mini-link'>GitHub</a> account.
+                </p>
+                <p>
+                    [<a id='top-link' href='#top'>Back to top</a>]
                 </p>
             </div>
         </div>
