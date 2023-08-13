@@ -13,7 +13,7 @@ function Portfolio() {
             <div id='top' className='row mb-2'>
                 <h2>Portfolio</h2>
                 <p>
-                    Jump to: <a id='group-link' href='#group'>Group Projects</a> | <a id='deployed-link' href='#deployed'>Deployed Applications</a> | <a id='not-deployed-link' href='#not-deployed'>Non-deployed Applications</a>
+                    Jump to: <a id='group-link' href='#group'>Group Projects</a> | <a id='deployed-link' href='#deployed'>Deployed Applications</a> | <a id='not-deployed-link' href='#not-deployed'>Non-Deployed Applications</a>
                 </p>
             </div>
             <div id='group' className='row'>

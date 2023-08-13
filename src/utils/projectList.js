@@ -1,10 +1,12 @@
 export let projectList = [
     // {name: '', deployed: true/false, collaborative: true/false, focus: '', repo: '', link: '', img: ''},
     // personal projects
+    {name: 'Vuetify Image Collection', deployed: true, collaborative: false, focus: 'Vuetify', repo: 'https://github.com/TOVTC/laith-vuetify3-tutorial', link: 'tovtc.github.io/laith-vuetify3-tutorial/', img: 'vuetify-imageapp'},
+    {name: 'Flutter Movie Lookup', deployed: false, collaborative: false, focus: 'Flutter, Mobile Apps (Android OS)', repo: 'https://github.com/TOVTC/flutter-dart-movie-lookup', img: 'flutter-movie-lookup'},
     {name: 'Docker To Do List', deployed: false, collaborative: false, focus: 'Docker', repo: 'https://github.com/TOVTC/docker-todo-tutorial', img: 'docker-to-do'},
     {name: 'To Do List API', deployed: false, collaborative: false, focus: 'C#, .NET Core, Entity', repo: 'https://github.com/TOVTC/csharp-dotnet-todo-api-tutorial', img: 'to-do'},
     {name: 'Vue 3 Movie Lookup', deployed: true, collaborative: false, focus: 'Vue 3', repo: 'https://github.com/TOVTC/vue3-movie-lookup', link: 'https://vue-3-movie-lookup.onrender.com/', img: 'movie-lookup-3'},
-    {name: 'Vue 2 Movie Lookup', deployed: true, collaborative: false, focus: 'Vue 2', repo: 'https://github.com/TOVTC/vue-movie-lookup', link: 'https://tovtc.github.io/vue-movie-lookup/', img: 'movie-lookup-2'},
+    {name: 'Vue 2 Movie Lookup', deployed: true, collaborative: false, focus: 'Vue 2', repo: 'https://github.com/TOVTC/vue2-movie-lookup', link: 'https://tovtc.github.io/vue2-movie-lookup/', img: 'movie-lookup-2'},
     {name: 'Connect Four', deployed: false, collaborative: false, focus: 'OOP, Algorithms', repo: 'https://github.com/TOVTC/connect-four', img: 'connect-four'},
     {name: 'CatWorx Badge Generator', deployed: false, collaborative: false, focus: 'C#, .NET Core', repo: 'https://github.com/TOVTC/csharp-.net-CatWorx', img: 'csharp-catworx'},
     {name: 'Just Tech News', deployed: true, collaborative: false, focus: 'Java Full Stack MVC', repo: 'https://github.com/TOVTC/tech-news-java-api', link: 'https://cc-java-api-777.herokuapp.com/', img: 'java-tech-news'},
