@@ -30,6 +30,7 @@ function Portfolio() {
                                     <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                 </a>
                                 <h4 className='mt-4'>{app.name}</h4>
+                                {app.bootcamp ? (<p className='text-sm-left'>(Boot Camp)</p>) : ''}
                                 <div className='my-3'>
                                     <p>Focus: {app.focus}</p>
                                     <BsGithub /><a href={app.repo} className='mx-2 p-1 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
@@ -54,6 +55,7 @@ function Portfolio() {
                                     <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                 </a>
                                 <h4 className='mt-4'>{app.name}</h4>
+                                {app.bootcamp ? (<p className='text-sm-left'>(Boot Camp)</p>) : ''}
                                 <div className='my-3'>
                                     <p>Focus: {app.focus}</p>
                                     <BsGithub /><a href={app.repo} className='mx-2 p-1 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
@@ -78,6 +80,7 @@ function Portfolio() {
                                     <img src={require(`../assets/images/projects/${app.img}.png`)} className='m-2 image radius' alt={app.name}></img>
                                 </a>
                                 <h4 className='mt-4'>{app.name}</h4>
+                                {app.bootcamp ? (<p className='text-sm-left'>(Boot Camp)</p>) : ''}
                                 <div className='my-3'>
                                     <p>Focus: {app.focus}</p>
                                     <BsGithub /><a href={app.repo} className='mx-2 p-1 mini-link' target='_blank' rel='noreferrer'>GitHub</a>
@@ -89,7 +92,7 @@ function Portfolio() {
             </div>
             <div className='row mt-2 mb-5'>
                 <p>
-                    For a complete list of applications I have worked on, please navigate to my <a href='https://github.com/TOVTC' className='mini-link'>GitHub</a> account.
+                    For a complete list of open source applications I have worked on, please navigate to my <a href='https://github.com/TOVTC' className='mini-link'>GitHub</a> account.
                 </p>
                 <p>
                     [<a id='top-link' href='#top'>Back to top</a>]
