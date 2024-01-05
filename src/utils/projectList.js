@@ -1,5 +1,5 @@
 export let projectList = [
-    // {name: '', deployed: true/false, collaborative: true/false, bootcamp: true/false, focus: '', repo: '', link: '', img: ''},
+    // {name: '', deployed: true/false, collaborative: true/false, bootcamp: false, focus: '', repo: '', link: '', img: ''},
     // personal projects
     {name: 'Identity Server Tracker', deployed: false, collaborative: false, bootcamp: false, focus: 'Identity Server 4', repo: 'https://github.com/TOVTC/csharp-identityserver4-employee-tracker', img: 'identity-server-employee-tracker'},
     {name: 'Flutter Movie Lookup', deployed: false, collaborative: false, bootcamp: false, focus: 'Flutter, iOS/Android OS, Localizations', repo: 'https://github.com/TOVTC/flutter-dart-movie-lookup', img: 'flutter-movie-lookup'},
