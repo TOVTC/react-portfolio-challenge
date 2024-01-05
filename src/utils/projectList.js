@@ -1,7 +1,9 @@
 export let projectList = [
     // {name: '', deployed: true/false, collaborative: true/false, bootcamp: false, focus: '', repo: '', link: '', img: ''},
     // personal projects
+    {name: 'OData Student API', deployed: false, collaborative: false, bootcamp: false, focus: 'OData', repo: 'https://github.com/TOVTC/csharp-hassan-odata-tutorial', img: 'odata-tutorial'},
     {name: 'Identity Server Tracker', deployed: false, collaborative: false, bootcamp: false, focus: 'Identity Server 4', repo: 'https://github.com/TOVTC/csharp-identityserver4-employee-tracker', img: 'identity-server-employee-tracker'},
+    {name: 'Nest Account API', deployed: false, collaborative: false, bootcamp: false, focus: 'Nest', repo: 'https://github.com/TOVTC/vlad-nestjs-tutorial', img: 'nestjs-tutorial'},
     {name: 'Flutter Movie Lookup', deployed: false, collaborative: false, bootcamp: false, focus: 'Flutter, iOS/Android OS, Localizations', repo: 'https://github.com/TOVTC/flutter-dart-movie-lookup', img: 'flutter-movie-lookup'},
     {name: 'Vuetify 3 Movie Lookup', deployed: true, collaborative: false, bootcamp: false, focus: 'Vuetify 3', repo: 'https://github.com/TOVTC/vuetify3-movie-lookup', link: 'https://vuetify-movie-lookup.onrender.com/', img: 'vuetify3-movie-lookup'},
     {name: 'Vuetify 2 Movie Lookup', deployed: true, collaborative: false, bootcamp: false, focus: 'Vuetify 2', repo: 'https://github.com/TOVTC/vuetify2-movie-lookup', link: 'https://tovtc.github.io/vuetify2-movie-lookup/', img: 'vuetify2-movie-lookup'},
