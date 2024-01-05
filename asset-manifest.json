@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.167359b1.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.86980c91.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/horiseon.png": "/react-portfolio-scscbc-challenge/static/media/horiseon.758d89a266320fc76598.png",
@@ -13,8 +13,8 @@
     "static/media/flutter-movie-lookup.png": "/react-portfolio-scscbc-challenge/static/media/flutter-movie-lookup.38c67b5d535a5a4b7378.png",
     "static/media/movie-lookup-3.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-3.b10509dec177c0816fd3.png",
     "static/media/react-portfolio.png": "/react-portfolio-scscbc-challenge/static/media/react-portfolio.2fda8d372c13adef23ea.png",
-    "static/media/ToV-Projects_Resume.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_Resume.12fe7d488e859a8ea41a.pdf",
     "static/media/movie-lookup-2.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-2.4d4394b72c20df8c206b.png",
+    "static/media/flutter-localizations.png": "/react-portfolio-scscbc-challenge/static/media/flutter-localizations.83c2ebd140807d1d916d.png",
     "static/media/java-employee-api.png": "/react-portfolio-scscbc-challenge/static/media/java-employee-api.1a7513e0768e26b02ad6.png",
     "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
     "static/media/budget-tracker.png": "/react-portfolio-scscbc-challenge/static/media/budget-tracker.3bc1a1a74c5229bf7cbf.png",
@@ -24,6 +24,7 @@
     "static/media/scheduler.png": "/react-portfolio-scscbc-challenge/static/media/scheduler.8a65e2d532fb27f21039.png",
     "static/media/note-taker.png": "/react-portfolio-scscbc-challenge/static/media/note-taker.6207262a3f00cbb9a329.png",
     "static/media/locum.png": "/react-portfolio-scscbc-challenge/static/media/locum.402b9303a629cd8c7591.png",
+    "static/media/identity-server-employee-tracker.png": "/react-portfolio-scscbc-challenge/static/media/identity-server-employee-tracker.03be0bbd5056a7468f50.png",
     "static/media/employee-tracker.png": "/react-portfolio-scscbc-challenge/static/media/employee-tracker.f001d14ef38794c9775c.png",
     "static/media/team-generator.png": "/react-portfolio-scscbc-challenge/static/media/team-generator.19384f43963264f345f2.png",
     "static/media/password-generator.png": "/react-portfolio-scscbc-challenge/static/media/password-generator.898badc6ccbd8b7fee66.png",
@@ -31,14 +32,15 @@
     "static/media/fermata.png": "/react-portfolio-scscbc-challenge/static/media/fermata.b320a5d001fbdad3deb1.png",
     "static/media/connect-four.png": "/react-portfolio-scscbc-challenge/static/media/connect-four.c1f5d95e77a5f802c602.png",
     "static/media/docker-to-do.png": "/react-portfolio-scscbc-challenge/static/media/docker-to-do.e5d8fb78a8497534a461.png",
+    "static/media/vuetify3-movie-lookup.png": "/react-portfolio-scscbc-challenge/static/media/vuetify3-movie-lookup.21f055e1b70d369e6f4a.png",
     "static/media/coding-quiz.png": "/react-portfolio-scscbc-challenge/static/media/coding-quiz.4b10f910debef46e60e1.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.eb676db2.css.map": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css.map",
-    "main.167359b1.js.map": "/react-portfolio-scscbc-challenge/static/js/main.167359b1.js.map",
+    "main.86980c91.js.map": "/react-portfolio-scscbc-challenge/static/js/main.86980c91.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb676db2.css",
-    "static/js/main.167359b1.js"
+    "static/js/main.86980c91.js"
   ]
 }
