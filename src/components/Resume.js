@@ -40,10 +40,10 @@ function Resume() {
                         </ul>
                     </div>
                 </div>
-            {/* <div className='row mt-3'>
+            <div className='row mt-3'>
                 <h2>Projects Resume</h2>
-                <p>Available for download <a href={require('../assets/documents/ToV-Projects_Resume.pdf')} download className='mini-link'>here</a></p>
-            </div>         */}
+                <p>Available for download <a href={require('../assets/documents/ToV-Projects_2024Jan05.pdf')} download className='mini-link'>here</a></p>
+            </div>        
         </div>
     )
 }
