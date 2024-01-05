@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css",
-    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.dd2f6c7c.js",
+    "main.js": "/react-portfolio-scscbc-challenge/static/js/main.8116e0c6.js",
     "static/js/787.ded898a4.chunk.js": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js",
     "static/media/avatar.jpg": "/react-portfolio-scscbc-challenge/static/media/avatar.39bbc945332227047ea5.jpg",
     "static/media/horiseon.png": "/react-portfolio-scscbc-challenge/static/media/horiseon.758d89a266320fc76598.png",
@@ -13,8 +13,8 @@
     "static/media/movie-lookup-3.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-3.b10509dec177c0816fd3.png",
     "static/media/vuetify2-movie-lookup.png": "/react-portfolio-scscbc-challenge/static/media/vuetify2-movie-lookup.71d048ebd92ef4d2a668.png",
     "static/media/react-portfolio.png": "/react-portfolio-scscbc-challenge/static/media/react-portfolio.2fda8d372c13adef23ea.png",
-    "static/media/ToV-Projects_2024Jan05.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_2024Jan05.953aac4ec1e8895c8c17.pdf",
     "static/media/movie-lookup-2.png": "/react-portfolio-scscbc-challenge/static/media/movie-lookup-2.4d4394b72c20df8c206b.png",
+    "static/media/ToV-Projects_2024Jan05.pdf": "/react-portfolio-scscbc-challenge/static/media/ToV-Projects_2024Jan05.73ee98b1bcae672cafbe.pdf",
     "static/media/java-employee-api.png": "/react-portfolio-scscbc-challenge/static/media/java-employee-api.1a7513e0768e26b02ad6.png",
     "static/media/weather-dashboard.png": "/react-portfolio-scscbc-challenge/static/media/weather-dashboard.d742c8dd8e41cf6f2b96.png",
     "static/media/budget-tracker.png": "/react-portfolio-scscbc-challenge/static/media/budget-tracker.3bc1a1a74c5229bf7cbf.png",
@@ -38,11 +38,11 @@
     "static/media/odata-tutorial.png": "/react-portfolio-scscbc-challenge/static/media/odata-tutorial.60039e448c6b8b2e4985.png",
     "index.html": "/react-portfolio-scscbc-challenge/index.html",
     "main.eb676db2.css.map": "/react-portfolio-scscbc-challenge/static/css/main.eb676db2.css.map",
-    "main.dd2f6c7c.js.map": "/react-portfolio-scscbc-challenge/static/js/main.dd2f6c7c.js.map",
+    "main.8116e0c6.js.map": "/react-portfolio-scscbc-challenge/static/js/main.8116e0c6.js.map",
     "787.ded898a4.chunk.js.map": "/react-portfolio-scscbc-challenge/static/js/787.ded898a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb676db2.css",
-    "static/js/main.dd2f6c7c.js"
+    "static/js/main.8116e0c6.js"
   ]
 }
