@@ -3,9 +3,8 @@ export let projectList = [
     // personal projects
     {name: 'Identity Server Tracker', deployed: false, collaborative: false, bootcamp: false, focus: 'Identity Server 4', repo: 'https://github.com/TOVTC/csharp-identityserver4-employee-tracker', img: 'identity-server-employee-tracker'},
     {name: 'Flutter Movie Lookup', deployed: false, collaborative: false, bootcamp: false, focus: 'Flutter, iOS/Android OS, Localizations', repo: 'https://github.com/TOVTC/flutter-dart-movie-lookup', img: 'flutter-movie-lookup'},
-    {name: 'Flutter Localizations', deployed: false, collaborative: false, bootcamp: false, focus: 'Flutter Localizations', repo: 'https://github.com/TOVTC/flutter-localizations-tutorial', img: 'flutter-localizations'},
     {name: 'Vuetify 3 Movie Lookup', deployed: true, collaborative: false, bootcamp: false, focus: 'Vuetify 3', repo: 'https://github.com/TOVTC/vuetify3-movie-lookup', link: 'https://vuetify-movie-lookup.onrender.com/', img: 'vuetify3-movie-lookup'},
-    {name: 'Vuetify Image Collection', deployed: true, collaborative: false, bootcamp: false, focus: 'Vuetify 2', repo: 'https://github.com/TOVTC/laith-vuetify3-tutorial', link: 'tovtc.github.io/laith-vuetify3-tutorial/', img: 'vuetify-imageapp'},
+    {name: 'Vuetify 2 Movie Lookup', deployed: true, collaborative: false, bootcamp: false, focus: 'Vuetify 2', repo: 'https://github.com/TOVTC/vuetify2-movie-lookup', link: 'https://tovtc.github.io/vuetify2-movie-lookup/', img: 'vuetify2-movie-lookup'},
     {name: 'Docker To Do List', deployed: false, collaborative: false, bootcamp: false, focus: 'Docker', repo: 'https://github.com/TOVTC/docker-todo-tutorial', img: 'docker-to-do'},
     {name: 'To Do List API', deployed: false, collaborative: false, bootcamp: false, focus: 'C#, .NET Core, Entity', repo: 'https://github.com/TOVTC/csharp-dotnet-todo-api-tutorial', img: 'to-do'},
     {name: 'Vue 3 Movie Lookup', deployed: true, collaborative: false, bootcamp: false, focus: 'Vue 3', repo: 'https://github.com/TOVTC/vue3-movie-lookup', link: 'https://vue-3-movie-lookup.onrender.com/', img: 'movie-lookup-3'},
